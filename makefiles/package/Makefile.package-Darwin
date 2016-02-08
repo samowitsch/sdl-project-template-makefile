@@ -12,7 +12,6 @@ package:
 	cp -R "$(FRAMEWORK_PATH)/Box2D.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
 
 	@echo "${BOLD} Copy Info.plist into application bundle and change placeholders ${NORMAL}"
-	#cp $(RESOURCES_OSX_PATH)/Info.plist "$(BUILD_PATH)/$(APP_NAME).app/Contents/"
 	sed -e "s/APP_NAME/$(APP_NAME)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
 	sed -e "s/APP_VERSION/$(APP_VERSION)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
 	sed -e "s/APP_INFO/$(APP_INFO)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
