@@ -1,0 +1,25 @@
+ifeq ($(TARGET),iOS_Simulator)
+
+include ./makefiles/flags/Makefile.flags-iPhoneSimulator
+
+else ifeq ($(TARGET),iOS_Device)
+
+include ./makefiles/flags/Makefile.flags-iPhone
+
+else ifeq ($(TARGET),MinGW32)
+
+include ./makefiles/flags/Makefile.flags-MinGW32
+
+else ifeq ($(TARGET),MinGW64)
+
+include ./makefiles/flags/Makefile.flags-MinGW64
+
+else ifeq ($(UNAME_S),Darwin)
+
+include ./makefiles/flags/Makefile.flags-Darwin
+
+else ifeq ($(UNAME_S),Linux)
+
+include ./makefiles/flags/Makefile.flags-Linux
+
+endif

@@ -1,0 +1,38 @@
+run:
+
+ifeq ($(TARGET),Darwin)
+	#OS X stuff
+	open -a "$(APP_NAME)"
+
+else ifeq ($(TARGET),iOS_Simulator)
+
+	#iOS stuff
+	xcrun instruments -w "iPhone 4s (9.2) [2F90DA02-22C4-4175-8BAF-C413458635E8]" || true
+	#xcrun instruments -w "sam IP6 (9.2.1) [e8b8620c079735918b90ba909e76cc70d04713dd]" || true
+
+	sleep 5
+
+	xcrun simctl install booted "$(BUILD_PATH)/$(APP_NAME).app/"
+
+	sleep 2
+
+	xcrun simctl launch booted "$(BUNDLE_IDENTIFIER)"
+
+else ifeq ($(TARGET),iOS_Device)
+
+	@echo "Can't run at the moment. Copy manually the generated .IPA file with iTunes to your device."
+
+
+else ifeq ($(TARGET),iOS_Device)
+
+	#iOS Stuff
+
+else ifeq ($(TARGET),Linux)
+
+	cd $(BUILD_PATH) && exec ./$(EXECUTABLE)
+
+else ifeq ($(TARGET),Win32)
+
+else ifeq ($(TARGET),Win32)
+
+endif

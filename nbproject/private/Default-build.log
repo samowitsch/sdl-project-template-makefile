@@ -1,0 +1,54 @@
+[0;37m[44m*** Compile file : src/CApp.cpp ***[0;32m[40m
+g++ -c -F "./frameworks" -framework SDL2 -framework SDL2_image -framework SDL2_mixer -framework SDL2_net -framework Box2D -o src/CApp.o src/CApp.cpp
+clang: warning: -framework SDL2: 'linker' input unused
+clang: warning: -framework SDL2_image: 'linker' input unused
+clang: warning: -framework SDL2_mixer: 'linker' input unused
+clang: warning: -framework SDL2_net: 'linker' input unused
+clang: warning: -framework Box2D: 'linker' input unused
+[0;37m[44m*** Compile file : src/main.cpp ***[0;32m[40m
+g++ -c -F "./frameworks" -framework SDL2 -framework SDL2_image -framework SDL2_mixer -framework SDL2_net -framework Box2D -o src/main.o src/main.cpp
+clang: warning: -framework SDL2: 'linker' input unused
+clang: warning: -framework SDL2_image: 'linker' input unused
+clang: warning: -framework SDL2_mixer: 'linker' input unused
+clang: warning: -framework SDL2_net: 'linker' input unused
+clang: warning: -framework Box2D: 'linker' input unused
+[0;37m[44m*** Compile file : src/cangaja/base/date.cpp ***[0;32m[40m
+g++ -c -F "./frameworks" -framework SDL2 -framework SDL2_image -framework SDL2_mixer -framework SDL2_net -framework Box2D -o src/cangaja/base/date.o src/cangaja/base/date.cpp
+clang: warning: -framework SDL2: 'linker' input unused
+clang: warning: -framework SDL2_image: 'linker' input unused
+clang: warning: -framework SDL2_mixer: 'linker' input unused
+clang: warning: -framework SDL2_net: 'linker' input unused
+clang: warning: -framework Box2D: 'linker' input unused
+[0;37m[44m*** Build main binary ***[0;32m[40m
+g++ -F "./frameworks" -framework SDL2 -framework SDL2_image -framework SDL2_mixer -framework SDL2_net -framework Box2D ./src/CApp.o ./src/main.o ./src/cangaja/base/date.o -o executable 
+[0;37m[44m*** List linked frameworks ***[0;32m[40m
+otool -L executable
+executable:
+	@rpath/SDL2.framework/Versions/A/SDL2 (compatibility version 1.0.0, current version 5.0.0)
+	@rpath/SDL2_image.framework/Versions/A/SDL2_image (compatibility version 1.0.0, current version 1.1.0)
+	@rpath/SDL2_mixer.framework/Versions/A/SDL2_mixer (compatibility version 1.0.0, current version 1.1.0)
+	@rpath/SDL2_net.framework/Versions/A/SDL2_net (compatibility version 1.0.0, current version 1.1.0)
+	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.1.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1226.10.1)
+[0;37m[44m***change linked frameworks from @rpath (frameworks install in system) paths to @executable_path***[0;32m[40m (frameworks in app bundle)
+install_name_tool -change @rpath/SDL2.framework/Versions/A/SDL2 @executable_path/../Frameworks/SDL2.framework/Versions/A/SDL2 executable
+install_name_tool -change @rpath/SDL2_image.framework/Versions/A/SDL2_image @executable_path/../Frameworks/SDL2_image.framework/Versions/A/SDL2_image executable
+install_name_tool -change @rpath/SDL2_mixer.framework/Versions/A/SDL2_mixer @executable_path/../Frameworks/SDL2_mixer.framework/Versions/A/SDL2_mixer executable
+install_name_tool -change @rpath/SDL2_net.framework/Versions/A/SDL2_net @executable_path/../Frameworks/SDL2_net.framework/Versions/A/SDL2_net executable
+install_name_tool -change @rpath/Box2D.framework/Versions/A/Box2D @executable_path/../Frameworks/Box2D.framework/Versions/A/Box2D executable
+[0;37m[44m*** Delete OS X application bundle ***[0;32m[40m
+rm -rf "./build/SDL Mac App.app/"
+[0;37m[44m*** Package application bundle ***[0;32m[40m
+mkdir -p "./build/SDL Mac App.app"/Contents/{MacOS,Resources,Frameworks}
+[0;37m[44m*** Copy needed frameworks into application bundle ***[0;32m[40m
+cp -R "./frameworks/SDL2.framework" "./build/SDL Mac App.app/Contents/Frameworks/"
+cp -R "./frameworks/SDL2_image.framework" "./build/SDL Mac App.app/Contents/Frameworks/"
+cp -R "./frameworks/SDL2_mixer.framework" "./build/SDL Mac App.app/Contents/Frameworks/"
+cp -R "./frameworks/SDL2_net.framework" "./build/SDL Mac App.app/Contents/Frameworks/"
+cp -R "./frameworks/Box2D.framework" "./build/SDL Mac App.app/Contents/Frameworks/"
+cp Info.plist "./build/SDL Mac App.app/Contents/"
+[0;37m[44m*** Copy needed resources into application bundle ***[0;32m[40m
+cp -R ./resources/*  "./build/SDL Mac App.app/Contents/Resources/"
+sed -e "s/APP_NAME/SDL Mac App/g" -i "" "./build/SDL Mac App.app/Contents/Info.plist"
+[0;37m[44m*** Copy executable into application bundle ***[0;32m[40m
+cp ./executable "./build/SDL Mac App.app/Contents/MacOS/SDL Mac App"

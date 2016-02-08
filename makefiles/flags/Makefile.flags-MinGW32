@@ -1,0 +1,4 @@
+
+TARGET=Win32
+EXECUTABLE = executable_$(TARGET)
+BUILD_PATH=./build/win32

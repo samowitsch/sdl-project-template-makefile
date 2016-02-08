@@ -1,0 +1,14 @@
+// ignore build files
+executable*
+build/*
+*.o
+
+// ignore mac files
+._*
+
+// ignore IDE files
+.idea
+.cproject
+//nbproject
+.settings
+.project

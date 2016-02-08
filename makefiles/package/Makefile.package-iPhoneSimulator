@@ -1,0 +1,17 @@
+package:
+
+	@echo "${BOLD} Package ios app bundle ${NORMAL}"
+	cp -r ./share/ios/MyApp.app "$(BUILD_PATH)/$(APP_NAME).app"
+
+	@echo "${BOLD} Copy general resources into ios app bundle ${NORMAL}"
+	cp -vR $(RESOURCES_PATH)/*  "$(BUILD_PATH)/$(APP_NAME).app/"
+
+	@echo "${BOLD} Copy executable into ios app bundle ${NORMAL}"
+	cp ./$(EXECUTABLE) "$(BUILD_PATH)/$(APP_NAME).app/$(APP_NAME)"
+
+	@echo "${BOLD} modify Info.plist ${NORMAL}"
+	sed -e "s/APP_NAME/$(APP_NAME)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Info.plist"
+	sed -e "s/BUNDLE_IDENTIFIER/$(BUNDLE_IDENTIFIER)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Info.plist"
+	sed -e "s/APP_VERSION/$(APP_VERSION)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Info.plist"
+	sed -e "s/APP_INFO/$(APP_INFO)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Info.plist"
+

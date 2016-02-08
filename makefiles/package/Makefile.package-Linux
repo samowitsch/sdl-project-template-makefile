@@ -1,0 +1,8 @@
+package:
+
+	@echo "${BOLD} \'Package\' linux application ${NORMAL}"
+	@echo "${BOLD} Copy executable into build folder ${NORMAL}"
+	cp ./$(EXECUTABLE) $(BUILD_PATH)
+
+	@echo "${BOLD} Copy general resources into application bundle ${NORMAL}"
+	cp -vR $(RESOURCES_PATH)/* $(BUILD_PATH)

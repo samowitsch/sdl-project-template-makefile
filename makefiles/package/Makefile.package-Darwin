@@ -1,0 +1,25 @@
+package:
+
+	@echo "${BOLD} Package os x application bundle ${NORMAL}"
+	cp -r ./share/osx/MyApp.app "$(BUILD_PATH)/$(APP_NAME).app"
+
+	@echo "${BOLD} Copy needed frameworks into application bundle ${NORMAL}"
+	cp -R "$(FRAMEWORK_PATH)/SDL2.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+	cp -R "$(FRAMEWORK_PATH)/SDL2_image.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+	cp -R "$(FRAMEWORK_PATH)/SDL2_mixer.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+	cp -R "$(FRAMEWORK_PATH)/SDL2_net.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+	cp -R "$(FRAMEWORK_PATH)/SDL2_ttf.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+	cp -R "$(FRAMEWORK_PATH)/Box2D.framework" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Frameworks/"
+
+	@echo "${BOLD} Copy Info.plist into application bundle and change placeholders ${NORMAL}"
+	#cp $(RESOURCES_OSX_PATH)/Info.plist "$(BUILD_PATH)/$(APP_NAME).app/Contents/"
+	sed -e "s/APP_NAME/$(APP_NAME)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
+	sed -e "s/APP_VERSION/$(APP_VERSION)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
+	sed -e "s/APP_INFO/$(APP_INFO)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
+	sed -e "s/BUNDLE_IDENTIFIER/$(BUNDLE_IDENTIFIER)/g" -i "" "$(BUILD_PATH)/$(APP_NAME).app/Contents/Info.plist"
+
+	@echo "${BOLD} Copy executable into application bundle ${NORMAL}"
+	cp ./$(EXECUTABLE) "$(BUILD_PATH)/$(APP_NAME).app/Contents/MacOS/$(APP_NAME)"
+
+	@echo "${BOLD} Copy general resources into application bundle ${NORMAL}"
+	cp -vR $(RESOURCES_PATH)/*  "$(BUILD_PATH)/$(APP_NAME).app/Contents/Resources/"

@@ -1,0 +1,4225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="ios.device">
+          <df name="MyApp.app">
+            <df name="Box2D">
+            </df>
+            <df name="Fonts">
+            </df>
+            <df name="Maps">
+            </df>
+            <df name="Pics">
+            </df>
+            <df name="Sfx">
+            </df>
+            <df name="Spine">
+            </df>
+          </df>
+        </df>
+        <df name="ios.simulator">
+          <df name="MyApp.app">
+            <df name="Box2D">
+            </df>
+            <df name="Fonts">
+            </df>
+            <df name="Maps">
+            </df>
+            <df name="Pics">
+            </df>
+            <df name="Sfx">
+            </df>
+            <df name="Spine">
+            </df>
+          </df>
+        </df>
+        <df name="linux">
+          <df name="Box2D">
+          </df>
+          <df name="Fonts">
+          </df>
+          <df name="Maps">
+          </df>
+          <df name="Pics">
+          </df>
+          <df name="Sfx">
+          </df>
+          <df name="Spine">
+          </df>
+        </df>
+        <df name="osx">
+          <df name="SDL App.app">
+            <df name="Contents">
+              <df name="Frameworks">
+                <df name="Box2D.framework">
+                  <df name="Headers">
+                    <df name="Collision">
+                      <df name="Shapes">
+                        <in>b2ChainShape.h</in>
+                        <in>b2CircleShape.h</in>
+                        <in>b2EdgeShape.h</in>
+                        <in>b2PolygonShape.h</in>
+                        <in>b2Shape.h</in>
+                      </df>
+                      <in>b2BroadPhase.h</in>
+                      <in>b2Collision.h</in>
+                      <in>b2Distance.h</in>
+                      <in>b2DynamicTree.h</in>
+                      <in>b2TimeOfImpact.h</in>
+                    </df>
+                    <df name="Common">
+                      <in>b2BlockAllocator.h</in>
+                      <in>b2Draw.h</in>
+                      <in>b2GrowableStack.h</in>
+                      <in>b2Math.h</in>
+                      <in>b2Settings.h</in>
+                      <in>b2StackAllocator.h</in>
+                      <in>b2Timer.h</in>
+                    </df>
+                    <df name="Dynamics">
+                      <df name="Contacts">
+                        <in>b2ChainAndCircleContact.h</in>
+                        <in>b2ChainAndPolygonContact.h</in>
+                        <in>b2CircleContact.h</in>
+                        <in>b2Contact.h</in>
+                        <in>b2ContactSolver.h</in>
+                        <in>b2EdgeAndCircleContact.h</in>
+                        <in>b2EdgeAndPolygonContact.h</in>
+                        <in>b2PolygonAndCircleContact.h</in>
+                        <in>b2PolygonContact.h</in>
+                      </df>
+                      <df name="Joints">
+                        <in>b2DistanceJoint.h</in>
+                        <in>b2FrictionJoint.h</in>
+                        <in>b2GearJoint.h</in>
+                        <in>b2Joint.h</in>
+                        <in>b2MotorJoint.h</in>
+                        <in>b2MouseJoint.h</in>
+                        <in>b2PrismaticJoint.h</in>
+                        <in>b2PulleyJoint.h</in>
+                        <in>b2RevoluteJoint.h</in>
+                        <in>b2RopeJoint.h</in>
+                        <in>b2WeldJoint.h</in>
+                        <in>b2WheelJoint.h</in>
+                      </df>
+                      <in>b2Body.h</in>
+                      <in>b2ContactManager.h</in>
+                      <in>b2Fixture.h</in>
+                      <in>b2Island.h</in>
+                      <in>b2TimeStep.h</in>
+                      <in>b2World.h</in>
+                      <in>b2WorldCallbacks.h</in>
+                    </df>
+                    <df name="Rope">
+                      <in>b2Rope.h</in>
+                    </df>
+                    <in>Box2D.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <df name="Collision">
+                          <df name="Shapes">
+                            <in>b2ChainShape.h</in>
+                            <in>b2CircleShape.h</in>
+                            <in>b2EdgeShape.h</in>
+                            <in>b2PolygonShape.h</in>
+                            <in>b2Shape.h</in>
+                          </df>
+                          <in>b2BroadPhase.h</in>
+                          <in>b2Collision.h</in>
+                          <in>b2Distance.h</in>
+                          <in>b2DynamicTree.h</in>
+                          <in>b2TimeOfImpact.h</in>
+                        </df>
+                        <df name="Common">
+                          <in>b2BlockAllocator.h</in>
+                          <in>b2Draw.h</in>
+                          <in>b2GrowableStack.h</in>
+                          <in>b2Math.h</in>
+                          <in>b2Settings.h</in>
+                          <in>b2StackAllocator.h</in>
+                          <in>b2Timer.h</in>
+                        </df>
+                        <df name="Dynamics">
+                          <df name="Contacts">
+                            <in>b2ChainAndCircleContact.h</in>
+                            <in>b2ChainAndPolygonContact.h</in>
+                            <in>b2CircleContact.h</in>
+                            <in>b2Contact.h</in>
+                            <in>b2ContactSolver.h</in>
+                            <in>b2EdgeAndCircleContact.h</in>
+                            <in>b2EdgeAndPolygonContact.h</in>
+                            <in>b2PolygonAndCircleContact.h</in>
+                            <in>b2PolygonContact.h</in>
+                          </df>
+                          <df name="Joints">
+                            <in>b2DistanceJoint.h</in>
+                            <in>b2FrictionJoint.h</in>
+                            <in>b2GearJoint.h</in>
+                            <in>b2Joint.h</in>
+                            <in>b2MotorJoint.h</in>
+                            <in>b2MouseJoint.h</in>
+                            <in>b2PrismaticJoint.h</in>
+                            <in>b2PulleyJoint.h</in>
+                            <in>b2RevoluteJoint.h</in>
+                            <in>b2RopeJoint.h</in>
+                            <in>b2WeldJoint.h</in>
+                            <in>b2WheelJoint.h</in>
+                          </df>
+                          <in>b2Body.h</in>
+                          <in>b2ContactManager.h</in>
+                          <in>b2Fixture.h</in>
+                          <in>b2Island.h</in>
+                          <in>b2TimeStep.h</in>
+                          <in>b2World.h</in>
+                          <in>b2WorldCallbacks.h</in>
+                        </df>
+                        <df name="Rope">
+                          <in>b2Rope.h</in>
+                        </df>
+                        <in>Box2D.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <df name="Collision">
+                          <df name="Shapes">
+                            <in>b2ChainShape.h</in>
+                            <in>b2CircleShape.h</in>
+                            <in>b2EdgeShape.h</in>
+                            <in>b2PolygonShape.h</in>
+                            <in>b2Shape.h</in>
+                          </df>
+                          <in>b2BroadPhase.h</in>
+                          <in>b2Collision.h</in>
+                          <in>b2Distance.h</in>
+                          <in>b2DynamicTree.h</in>
+                          <in>b2TimeOfImpact.h</in>
+                        </df>
+                        <df name="Common">
+                          <in>b2BlockAllocator.h</in>
+                          <in>b2Draw.h</in>
+                          <in>b2GrowableStack.h</in>
+                          <in>b2Math.h</in>
+                          <in>b2Settings.h</in>
+                          <in>b2StackAllocator.h</in>
+                          <in>b2Timer.h</in>
+                        </df>
+                        <df name="Dynamics">
+                          <df name="Contacts">
+                            <in>b2ChainAndCircleContact.h</in>
+                            <in>b2ChainAndPolygonContact.h</in>
+                            <in>b2CircleContact.h</in>
+                            <in>b2Contact.h</in>
+                            <in>b2ContactSolver.h</in>
+                            <in>b2EdgeAndCircleContact.h</in>
+                            <in>b2EdgeAndPolygonContact.h</in>
+                            <in>b2PolygonAndCircleContact.h</in>
+                            <in>b2PolygonContact.h</in>
+                          </df>
+                          <df name="Joints">
+                            <in>b2DistanceJoint.h</in>
+                            <in>b2FrictionJoint.h</in>
+                            <in>b2GearJoint.h</in>
+                            <in>b2Joint.h</in>
+                            <in>b2MotorJoint.h</in>
+                            <in>b2MouseJoint.h</in>
+                            <in>b2PrismaticJoint.h</in>
+                            <in>b2PulleyJoint.h</in>
+                            <in>b2RevoluteJoint.h</in>
+                            <in>b2RopeJoint.h</in>
+                            <in>b2WeldJoint.h</in>
+                            <in>b2WheelJoint.h</in>
+                          </df>
+                          <in>b2Body.h</in>
+                          <in>b2ContactManager.h</in>
+                          <in>b2Fixture.h</in>
+                          <in>b2Island.h</in>
+                          <in>b2TimeStep.h</in>
+                          <in>b2World.h</in>
+                          <in>b2WorldCallbacks.h</in>
+                        </df>
+                        <df name="Rope">
+                          <in>b2Rope.h</in>
+                        </df>
+                        <in>Box2D.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="SDL2.framework">
+                  <df name="Headers">
+                    <in>SDL.h</in>
+                    <in>SDL_assert.h</in>
+                    <in>SDL_atomic.h</in>
+                    <in>SDL_audio.h</in>
+                    <in>SDL_bits.h</in>
+                    <in>SDL_blendmode.h</in>
+                    <in>SDL_clipboard.h</in>
+                    <in>SDL_config.h</in>
+                    <in>SDL_config_macosx.h</in>
+                    <in>SDL_copying.h</in>
+                    <in>SDL_cpuinfo.h</in>
+                    <in>SDL_endian.h</in>
+                    <in>SDL_error.h</in>
+                    <in>SDL_events.h</in>
+                    <in>SDL_filesystem.h</in>
+                    <in>SDL_gamecontroller.h</in>
+                    <in>SDL_gesture.h</in>
+                    <in>SDL_haptic.h</in>
+                    <in>SDL_hints.h</in>
+                    <in>SDL_joystick.h</in>
+                    <in>SDL_keyboard.h</in>
+                    <in>SDL_keycode.h</in>
+                    <in>SDL_loadso.h</in>
+                    <in>SDL_log.h</in>
+                    <in>SDL_main.h</in>
+                    <in>SDL_messagebox.h</in>
+                    <in>SDL_mouse.h</in>
+                    <in>SDL_mutex.h</in>
+                    <in>SDL_name.h</in>
+                    <in>SDL_opengl.h</in>
+                    <in>SDL_opengl_glext.h</in>
+                    <in>SDL_opengles.h</in>
+                    <in>SDL_opengles2.h</in>
+                    <in>SDL_opengles2_gl2.h</in>
+                    <in>SDL_opengles2_gl2ext.h</in>
+                    <in>SDL_opengles2_gl2platform.h</in>
+                    <in>SDL_opengles2_khrplatform.h</in>
+                    <in>SDL_pixels.h</in>
+                    <in>SDL_platform.h</in>
+                    <in>SDL_power.h</in>
+                    <in>SDL_quit.h</in>
+                    <in>SDL_rect.h</in>
+                    <in>SDL_render.h</in>
+                    <in>SDL_revision.h</in>
+                    <in>SDL_rwops.h</in>
+                    <in>SDL_scancode.h</in>
+                    <in>SDL_shape.h</in>
+                    <in>SDL_stdinc.h</in>
+                    <in>SDL_surface.h</in>
+                    <in>SDL_system.h</in>
+                    <in>SDL_syswm.h</in>
+                    <in>SDL_thread.h</in>
+                    <in>SDL_timer.h</in>
+                    <in>SDL_touch.h</in>
+                    <in>SDL_types.h</in>
+                    <in>SDL_version.h</in>
+                    <in>SDL_video.h</in>
+                    <in>begin_code.h</in>
+                    <in>close_code.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <in>SDL.h</in>
+                        <in>SDL_assert.h</in>
+                        <in>SDL_atomic.h</in>
+                        <in>SDL_audio.h</in>
+                        <in>SDL_bits.h</in>
+                        <in>SDL_blendmode.h</in>
+                        <in>SDL_clipboard.h</in>
+                        <in>SDL_config.h</in>
+                        <in>SDL_config_macosx.h</in>
+                        <in>SDL_copying.h</in>
+                        <in>SDL_cpuinfo.h</in>
+                        <in>SDL_endian.h</in>
+                        <in>SDL_error.h</in>
+                        <in>SDL_events.h</in>
+                        <in>SDL_filesystem.h</in>
+                        <in>SDL_gamecontroller.h</in>
+                        <in>SDL_gesture.h</in>
+                        <in>SDL_haptic.h</in>
+                        <in>SDL_hints.h</in>
+                        <in>SDL_joystick.h</in>
+                        <in>SDL_keyboard.h</in>
+                        <in>SDL_keycode.h</in>
+                        <in>SDL_loadso.h</in>
+                        <in>SDL_log.h</in>
+                        <in>SDL_main.h</in>
+                        <in>SDL_messagebox.h</in>
+                        <in>SDL_mouse.h</in>
+                        <in>SDL_mutex.h</in>
+                        <in>SDL_name.h</in>
+                        <in>SDL_opengl.h</in>
+                        <in>SDL_opengl_glext.h</in>
+                        <in>SDL_opengles.h</in>
+                        <in>SDL_opengles2.h</in>
+                        <in>SDL_opengles2_gl2.h</in>
+                        <in>SDL_opengles2_gl2ext.h</in>
+                        <in>SDL_opengles2_gl2platform.h</in>
+                        <in>SDL_opengles2_khrplatform.h</in>
+                        <in>SDL_pixels.h</in>
+                        <in>SDL_platform.h</in>
+                        <in>SDL_power.h</in>
+                        <in>SDL_quit.h</in>
+                        <in>SDL_rect.h</in>
+                        <in>SDL_render.h</in>
+                        <in>SDL_revision.h</in>
+                        <in>SDL_rwops.h</in>
+                        <in>SDL_scancode.h</in>
+                        <in>SDL_shape.h</in>
+                        <in>SDL_stdinc.h</in>
+                        <in>SDL_surface.h</in>
+                        <in>SDL_system.h</in>
+                        <in>SDL_syswm.h</in>
+                        <in>SDL_thread.h</in>
+                        <in>SDL_timer.h</in>
+                        <in>SDL_touch.h</in>
+                        <in>SDL_types.h</in>
+                        <in>SDL_version.h</in>
+                        <in>SDL_video.h</in>
+                        <in>begin_code.h</in>
+                        <in>close_code.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <in>SDL.h</in>
+                        <in>SDL_assert.h</in>
+                        <in>SDL_atomic.h</in>
+                        <in>SDL_audio.h</in>
+                        <in>SDL_bits.h</in>
+                        <in>SDL_blendmode.h</in>
+                        <in>SDL_clipboard.h</in>
+                        <in>SDL_config.h</in>
+                        <in>SDL_config_macosx.h</in>
+                        <in>SDL_copying.h</in>
+                        <in>SDL_cpuinfo.h</in>
+                        <in>SDL_endian.h</in>
+                        <in>SDL_error.h</in>
+                        <in>SDL_events.h</in>
+                        <in>SDL_filesystem.h</in>
+                        <in>SDL_gamecontroller.h</in>
+                        <in>SDL_gesture.h</in>
+                        <in>SDL_haptic.h</in>
+                        <in>SDL_hints.h</in>
+                        <in>SDL_joystick.h</in>
+                        <in>SDL_keyboard.h</in>
+                        <in>SDL_keycode.h</in>
+                        <in>SDL_loadso.h</in>
+                        <in>SDL_log.h</in>
+                        <in>SDL_main.h</in>
+                        <in>SDL_messagebox.h</in>
+                        <in>SDL_mouse.h</in>
+                        <in>SDL_mutex.h</in>
+                        <in>SDL_name.h</in>
+                        <in>SDL_opengl.h</in>
+                        <in>SDL_opengl_glext.h</in>
+                        <in>SDL_opengles.h</in>
+                        <in>SDL_opengles2.h</in>
+                        <in>SDL_opengles2_gl2.h</in>
+                        <in>SDL_opengles2_gl2ext.h</in>
+                        <in>SDL_opengles2_gl2platform.h</in>
+                        <in>SDL_opengles2_khrplatform.h</in>
+                        <in>SDL_pixels.h</in>
+                        <in>SDL_platform.h</in>
+                        <in>SDL_power.h</in>
+                        <in>SDL_quit.h</in>
+                        <in>SDL_rect.h</in>
+                        <in>SDL_render.h</in>
+                        <in>SDL_revision.h</in>
+                        <in>SDL_rwops.h</in>
+                        <in>SDL_scancode.h</in>
+                        <in>SDL_shape.h</in>
+                        <in>SDL_stdinc.h</in>
+                        <in>SDL_surface.h</in>
+                        <in>SDL_system.h</in>
+                        <in>SDL_syswm.h</in>
+                        <in>SDL_thread.h</in>
+                        <in>SDL_timer.h</in>
+                        <in>SDL_touch.h</in>
+                        <in>SDL_types.h</in>
+                        <in>SDL_version.h</in>
+                        <in>SDL_video.h</in>
+                        <in>begin_code.h</in>
+                        <in>close_code.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="SDL2_image.framework">
+                  <df name="Frameworks">
+                    <df name="webp.framework">
+                      <df name="Headers">
+                        <df name="webp">
+                          <in>decode.h</in>
+                          <in>encode.h</in>
+                          <in>types.h</in>
+                        </df>
+                      </df>
+                      <df name="Resources">
+                        <df name="English.lproj">
+                        </df>
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="webp">
+                              <in>decode.h</in>
+                              <in>encode.h</in>
+                              <in>types.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="webp">
+                              <in>decode.h</in>
+                              <in>encode.h</in>
+                              <in>types.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Headers">
+                    <in>SDL_image.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="webp.framework">
+                          <df name="Headers">
+                            <df name="webp">
+                              <in>decode.h</in>
+                              <in>encode.h</in>
+                              <in>types.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="webp">
+                                  <in>decode.h</in>
+                                  <in>encode.h</in>
+                                  <in>types.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="webp">
+                                  <in>decode.h</in>
+                                  <in>encode.h</in>
+                                  <in>types.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_image.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="webp.framework">
+                          <df name="Headers">
+                            <df name="webp">
+                              <in>decode.h</in>
+                              <in>encode.h</in>
+                              <in>types.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="webp">
+                                  <in>decode.h</in>
+                                  <in>encode.h</in>
+                                  <in>types.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="webp">
+                                  <in>decode.h</in>
+                                  <in>encode.h</in>
+                                  <in>types.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_image.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="SDL2_mixer.framework">
+                  <df name="Frameworks">
+                    <df name="FLAC.framework">
+                      <df name="Headers">
+                        <df name="FLAC">
+                          <in>all.h</in>
+                          <in>assert.h</in>
+                          <in>callback.h</in>
+                          <in>export.h</in>
+                          <in>format.h</in>
+                          <in>metadata.h</in>
+                          <in>ordinals.h</in>
+                          <in>stream_decoder.h</in>
+                          <in>stream_encoder.h</in>
+                        </df>
+                      </df>
+                      <df name="Resources">
+                        <df name="English.lproj">
+                        </df>
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="FLAC">
+                              <in>all.h</in>
+                              <in>assert.h</in>
+                              <in>callback.h</in>
+                              <in>export.h</in>
+                              <in>format.h</in>
+                              <in>metadata.h</in>
+                              <in>ordinals.h</in>
+                              <in>stream_decoder.h</in>
+                              <in>stream_encoder.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="FLAC">
+                              <in>all.h</in>
+                              <in>assert.h</in>
+                              <in>callback.h</in>
+                              <in>export.h</in>
+                              <in>format.h</in>
+                              <in>metadata.h</in>
+                              <in>ordinals.h</in>
+                              <in>stream_decoder.h</in>
+                              <in>stream_encoder.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="modplug.framework">
+                      <df name="Headers">
+                        <in>modplug.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>modplug.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>modplug.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="Ogg.framework">
+                      <df name="Headers">
+                        <in>ogg.h</in>
+                        <in>os_types.h</in>
+                      </df>
+                      <df name="Resources">
+                        <df name="English.lproj">
+                        </df>
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>ogg.h</in>
+                            <in>os_types.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>ogg.h</in>
+                            <in>os_types.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="smpeg2.framework">
+                      <df name="Headers">
+                        <in>MPEGframe.h</in>
+                        <in>smpeg.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>MPEGframe.h</in>
+                            <in>smpeg.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>MPEGframe.h</in>
+                            <in>smpeg.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="Vorbis.framework">
+                      <df name="Headers">
+                        <in>codec.h</in>
+                        <in>vorbisenc.h</in>
+                        <in>vorbisfile.h</in>
+                      </df>
+                      <df name="Resources">
+                        <df name="English.lproj">
+                        </df>
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>codec.h</in>
+                            <in>vorbisenc.h</in>
+                            <in>vorbisfile.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <in>codec.h</in>
+                            <in>vorbisenc.h</in>
+                            <in>vorbisfile.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Headers">
+                    <in>SDL_mixer.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="FLAC.framework">
+                          <df name="Headers">
+                            <df name="FLAC">
+                              <in>all.h</in>
+                              <in>assert.h</in>
+                              <in>callback.h</in>
+                              <in>export.h</in>
+                              <in>format.h</in>
+                              <in>metadata.h</in>
+                              <in>ordinals.h</in>
+                              <in>stream_decoder.h</in>
+                              <in>stream_encoder.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="FLAC">
+                                  <in>all.h</in>
+                                  <in>assert.h</in>
+                                  <in>callback.h</in>
+                                  <in>export.h</in>
+                                  <in>format.h</in>
+                                  <in>metadata.h</in>
+                                  <in>ordinals.h</in>
+                                  <in>stream_decoder.h</in>
+                                  <in>stream_encoder.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="FLAC">
+                                  <in>all.h</in>
+                                  <in>assert.h</in>
+                                  <in>callback.h</in>
+                                  <in>export.h</in>
+                                  <in>format.h</in>
+                                  <in>metadata.h</in>
+                                  <in>ordinals.h</in>
+                                  <in>stream_decoder.h</in>
+                                  <in>stream_encoder.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="modplug.framework">
+                          <df name="Headers">
+                            <in>modplug.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>modplug.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>modplug.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Ogg.framework">
+                          <df name="Headers">
+                            <in>ogg.h</in>
+                            <in>os_types.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>ogg.h</in>
+                                <in>os_types.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>ogg.h</in>
+                                <in>os_types.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="smpeg2.framework">
+                          <df name="Headers">
+                            <in>MPEGframe.h</in>
+                            <in>smpeg.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>MPEGframe.h</in>
+                                <in>smpeg.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>MPEGframe.h</in>
+                                <in>smpeg.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Vorbis.framework">
+                          <df name="Headers">
+                            <in>codec.h</in>
+                            <in>vorbisenc.h</in>
+                            <in>vorbisfile.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>codec.h</in>
+                                <in>vorbisenc.h</in>
+                                <in>vorbisfile.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>codec.h</in>
+                                <in>vorbisenc.h</in>
+                                <in>vorbisfile.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_mixer.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="FLAC.framework">
+                          <df name="Headers">
+                            <df name="FLAC">
+                              <in>all.h</in>
+                              <in>assert.h</in>
+                              <in>callback.h</in>
+                              <in>export.h</in>
+                              <in>format.h</in>
+                              <in>metadata.h</in>
+                              <in>ordinals.h</in>
+                              <in>stream_decoder.h</in>
+                              <in>stream_encoder.h</in>
+                            </df>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="FLAC">
+                                  <in>all.h</in>
+                                  <in>assert.h</in>
+                                  <in>callback.h</in>
+                                  <in>export.h</in>
+                                  <in>format.h</in>
+                                  <in>metadata.h</in>
+                                  <in>ordinals.h</in>
+                                  <in>stream_decoder.h</in>
+                                  <in>stream_encoder.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="FLAC">
+                                  <in>all.h</in>
+                                  <in>assert.h</in>
+                                  <in>callback.h</in>
+                                  <in>export.h</in>
+                                  <in>format.h</in>
+                                  <in>metadata.h</in>
+                                  <in>ordinals.h</in>
+                                  <in>stream_decoder.h</in>
+                                  <in>stream_encoder.h</in>
+                                </df>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="modplug.framework">
+                          <df name="Headers">
+                            <in>modplug.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>modplug.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>modplug.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Ogg.framework">
+                          <df name="Headers">
+                            <in>ogg.h</in>
+                            <in>os_types.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>ogg.h</in>
+                                <in>os_types.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>ogg.h</in>
+                                <in>os_types.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="smpeg2.framework">
+                          <df name="Headers">
+                            <in>MPEGframe.h</in>
+                            <in>smpeg.h</in>
+                          </df>
+                          <df name="Resources">
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>MPEGframe.h</in>
+                                <in>smpeg.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>MPEGframe.h</in>
+                                <in>smpeg.h</in>
+                              </df>
+                              <df name="Resources">
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Vorbis.framework">
+                          <df name="Headers">
+                            <in>codec.h</in>
+                            <in>vorbisenc.h</in>
+                            <in>vorbisfile.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>codec.h</in>
+                                <in>vorbisenc.h</in>
+                                <in>vorbisfile.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <in>codec.h</in>
+                                <in>vorbisenc.h</in>
+                                <in>vorbisfile.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_mixer.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="SDL2_net.framework">
+                  <df name="Headers">
+                    <in>SDL_net.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_net.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_net.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="SDL2_ttf.framework">
+                  <df name="Frameworks">
+                    <df name="FreeType.framework">
+                      <df name="Headers">
+                        <df name="freetype">
+                          <df name="config">
+                            <in>ftconfig.h</in>
+                            <in>ftheader.h</in>
+                            <in>ftmodule.h</in>
+                            <in>ftoption.h</in>
+                            <in>ftstdlib.h</in>
+                          </df>
+                          <in>freetype.h</in>
+                          <in>ftadvanc.h</in>
+                          <in>ftautoh.h</in>
+                          <in>ftbbox.h</in>
+                          <in>ftbdf.h</in>
+                          <in>ftbitmap.h</in>
+                          <in>ftbzip2.h</in>
+                          <in>ftcache.h</in>
+                          <in>ftcffdrv.h</in>
+                          <in>ftchapters.h</in>
+                          <in>ftcid.h</in>
+                          <in>fterrdef.h</in>
+                          <in>fterrors.h</in>
+                          <in>ftgasp.h</in>
+                          <in>ftglyph.h</in>
+                          <in>ftgxval.h</in>
+                          <in>ftgzip.h</in>
+                          <in>ftimage.h</in>
+                          <in>ftincrem.h</in>
+                          <in>ftlcdfil.h</in>
+                          <in>ftlist.h</in>
+                          <in>ftlzw.h</in>
+                          <in>ftmac.h</in>
+                          <in>ftmm.h</in>
+                          <in>ftmodapi.h</in>
+                          <in>ftmoderr.h</in>
+                          <in>ftotval.h</in>
+                          <in>ftoutln.h</in>
+                          <in>ftpfr.h</in>
+                          <in>ftrender.h</in>
+                          <in>ftsizes.h</in>
+                          <in>ftsnames.h</in>
+                          <in>ftstroke.h</in>
+                          <in>ftsynth.h</in>
+                          <in>ftsystem.h</in>
+                          <in>fttrigon.h</in>
+                          <in>fttypes.h</in>
+                          <in>ftwinfnt.h</in>
+                          <in>ftxf86.h</in>
+                          <in>t1tables.h</in>
+                          <in>ttnameid.h</in>
+                          <in>tttables.h</in>
+                          <in>tttags.h</in>
+                          <in>ttunpat.h</in>
+                        </df>
+                        <in>ft2build.h</in>
+                      </df>
+                      <df name="Resources">
+                        <df name="English.lproj">
+                        </df>
+                      </df>
+                      <df name="Versions">
+                        <df name="A">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="freetype">
+                              <df name="config">
+                                <in>ftconfig.h</in>
+                                <in>ftheader.h</in>
+                                <in>ftmodule.h</in>
+                                <in>ftoption.h</in>
+                                <in>ftstdlib.h</in>
+                              </df>
+                              <in>freetype.h</in>
+                              <in>ftadvanc.h</in>
+                              <in>ftautoh.h</in>
+                              <in>ftbbox.h</in>
+                              <in>ftbdf.h</in>
+                              <in>ftbitmap.h</in>
+                              <in>ftbzip2.h</in>
+                              <in>ftcache.h</in>
+                              <in>ftcffdrv.h</in>
+                              <in>ftchapters.h</in>
+                              <in>ftcid.h</in>
+                              <in>fterrdef.h</in>
+                              <in>fterrors.h</in>
+                              <in>ftgasp.h</in>
+                              <in>ftglyph.h</in>
+                              <in>ftgxval.h</in>
+                              <in>ftgzip.h</in>
+                              <in>ftimage.h</in>
+                              <in>ftincrem.h</in>
+                              <in>ftlcdfil.h</in>
+                              <in>ftlist.h</in>
+                              <in>ftlzw.h</in>
+                              <in>ftmac.h</in>
+                              <in>ftmm.h</in>
+                              <in>ftmodapi.h</in>
+                              <in>ftmoderr.h</in>
+                              <in>ftotval.h</in>
+                              <in>ftoutln.h</in>
+                              <in>ftpfr.h</in>
+                              <in>ftrender.h</in>
+                              <in>ftsizes.h</in>
+                              <in>ftsnames.h</in>
+                              <in>ftstroke.h</in>
+                              <in>ftsynth.h</in>
+                              <in>ftsystem.h</in>
+                              <in>fttrigon.h</in>
+                              <in>fttypes.h</in>
+                              <in>ftwinfnt.h</in>
+                              <in>ftxf86.h</in>
+                              <in>t1tables.h</in>
+                              <in>ttnameid.h</in>
+                              <in>tttables.h</in>
+                              <in>tttags.h</in>
+                              <in>ttunpat.h</in>
+                            </df>
+                            <in>ft2build.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="Current">
+                          <df name="_CodeSignature">
+                          </df>
+                          <df name="Headers">
+                            <df name="freetype">
+                              <df name="config">
+                                <in>ftconfig.h</in>
+                                <in>ftheader.h</in>
+                                <in>ftmodule.h</in>
+                                <in>ftoption.h</in>
+                                <in>ftstdlib.h</in>
+                              </df>
+                              <in>freetype.h</in>
+                              <in>ftadvanc.h</in>
+                              <in>ftautoh.h</in>
+                              <in>ftbbox.h</in>
+                              <in>ftbdf.h</in>
+                              <in>ftbitmap.h</in>
+                              <in>ftbzip2.h</in>
+                              <in>ftcache.h</in>
+                              <in>ftcffdrv.h</in>
+                              <in>ftchapters.h</in>
+                              <in>ftcid.h</in>
+                              <in>fterrdef.h</in>
+                              <in>fterrors.h</in>
+                              <in>ftgasp.h</in>
+                              <in>ftglyph.h</in>
+                              <in>ftgxval.h</in>
+                              <in>ftgzip.h</in>
+                              <in>ftimage.h</in>
+                              <in>ftincrem.h</in>
+                              <in>ftlcdfil.h</in>
+                              <in>ftlist.h</in>
+                              <in>ftlzw.h</in>
+                              <in>ftmac.h</in>
+                              <in>ftmm.h</in>
+                              <in>ftmodapi.h</in>
+                              <in>ftmoderr.h</in>
+                              <in>ftotval.h</in>
+                              <in>ftoutln.h</in>
+                              <in>ftpfr.h</in>
+                              <in>ftrender.h</in>
+                              <in>ftsizes.h</in>
+                              <in>ftsnames.h</in>
+                              <in>ftstroke.h</in>
+                              <in>ftsynth.h</in>
+                              <in>ftsystem.h</in>
+                              <in>fttrigon.h</in>
+                              <in>fttypes.h</in>
+                              <in>ftwinfnt.h</in>
+                              <in>ftxf86.h</in>
+                              <in>t1tables.h</in>
+                              <in>ttnameid.h</in>
+                              <in>tttables.h</in>
+                              <in>tttags.h</in>
+                              <in>ttunpat.h</in>
+                            </df>
+                            <in>ft2build.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Headers">
+                    <in>SDL_ttf.h</in>
+                  </df>
+                  <df name="Resources">
+                  </df>
+                  <df name="Versions">
+                    <df name="A">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="FreeType.framework">
+                          <df name="Headers">
+                            <df name="freetype">
+                              <df name="config">
+                                <in>ftconfig.h</in>
+                                <in>ftheader.h</in>
+                                <in>ftmodule.h</in>
+                                <in>ftoption.h</in>
+                                <in>ftstdlib.h</in>
+                              </df>
+                              <in>freetype.h</in>
+                              <in>ftadvanc.h</in>
+                              <in>ftautoh.h</in>
+                              <in>ftbbox.h</in>
+                              <in>ftbdf.h</in>
+                              <in>ftbitmap.h</in>
+                              <in>ftbzip2.h</in>
+                              <in>ftcache.h</in>
+                              <in>ftcffdrv.h</in>
+                              <in>ftchapters.h</in>
+                              <in>ftcid.h</in>
+                              <in>fterrdef.h</in>
+                              <in>fterrors.h</in>
+                              <in>ftgasp.h</in>
+                              <in>ftglyph.h</in>
+                              <in>ftgxval.h</in>
+                              <in>ftgzip.h</in>
+                              <in>ftimage.h</in>
+                              <in>ftincrem.h</in>
+                              <in>ftlcdfil.h</in>
+                              <in>ftlist.h</in>
+                              <in>ftlzw.h</in>
+                              <in>ftmac.h</in>
+                              <in>ftmm.h</in>
+                              <in>ftmodapi.h</in>
+                              <in>ftmoderr.h</in>
+                              <in>ftotval.h</in>
+                              <in>ftoutln.h</in>
+                              <in>ftpfr.h</in>
+                              <in>ftrender.h</in>
+                              <in>ftsizes.h</in>
+                              <in>ftsnames.h</in>
+                              <in>ftstroke.h</in>
+                              <in>ftsynth.h</in>
+                              <in>ftsystem.h</in>
+                              <in>fttrigon.h</in>
+                              <in>fttypes.h</in>
+                              <in>ftwinfnt.h</in>
+                              <in>ftxf86.h</in>
+                              <in>t1tables.h</in>
+                              <in>ttnameid.h</in>
+                              <in>tttables.h</in>
+                              <in>tttags.h</in>
+                              <in>ttunpat.h</in>
+                            </df>
+                            <in>ft2build.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="freetype">
+                                  <df name="config">
+                                    <in>ftconfig.h</in>
+                                    <in>ftheader.h</in>
+                                    <in>ftmodule.h</in>
+                                    <in>ftoption.h</in>
+                                    <in>ftstdlib.h</in>
+                                  </df>
+                                  <in>freetype.h</in>
+                                  <in>ftadvanc.h</in>
+                                  <in>ftautoh.h</in>
+                                  <in>ftbbox.h</in>
+                                  <in>ftbdf.h</in>
+                                  <in>ftbitmap.h</in>
+                                  <in>ftbzip2.h</in>
+                                  <in>ftcache.h</in>
+                                  <in>ftcffdrv.h</in>
+                                  <in>ftchapters.h</in>
+                                  <in>ftcid.h</in>
+                                  <in>fterrdef.h</in>
+                                  <in>fterrors.h</in>
+                                  <in>ftgasp.h</in>
+                                  <in>ftglyph.h</in>
+                                  <in>ftgxval.h</in>
+                                  <in>ftgzip.h</in>
+                                  <in>ftimage.h</in>
+                                  <in>ftincrem.h</in>
+                                  <in>ftlcdfil.h</in>
+                                  <in>ftlist.h</in>
+                                  <in>ftlzw.h</in>
+                                  <in>ftmac.h</in>
+                                  <in>ftmm.h</in>
+                                  <in>ftmodapi.h</in>
+                                  <in>ftmoderr.h</in>
+                                  <in>ftotval.h</in>
+                                  <in>ftoutln.h</in>
+                                  <in>ftpfr.h</in>
+                                  <in>ftrender.h</in>
+                                  <in>ftsizes.h</in>
+                                  <in>ftsnames.h</in>
+                                  <in>ftstroke.h</in>
+                                  <in>ftsynth.h</in>
+                                  <in>ftsystem.h</in>
+                                  <in>fttrigon.h</in>
+                                  <in>fttypes.h</in>
+                                  <in>ftwinfnt.h</in>
+                                  <in>ftxf86.h</in>
+                                  <in>t1tables.h</in>
+                                  <in>ttnameid.h</in>
+                                  <in>tttables.h</in>
+                                  <in>tttags.h</in>
+                                  <in>ttunpat.h</in>
+                                </df>
+                                <in>ft2build.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="freetype">
+                                  <df name="config">
+                                    <in>ftconfig.h</in>
+                                    <in>ftheader.h</in>
+                                    <in>ftmodule.h</in>
+                                    <in>ftoption.h</in>
+                                    <in>ftstdlib.h</in>
+                                  </df>
+                                  <in>freetype.h</in>
+                                  <in>ftadvanc.h</in>
+                                  <in>ftautoh.h</in>
+                                  <in>ftbbox.h</in>
+                                  <in>ftbdf.h</in>
+                                  <in>ftbitmap.h</in>
+                                  <in>ftbzip2.h</in>
+                                  <in>ftcache.h</in>
+                                  <in>ftcffdrv.h</in>
+                                  <in>ftchapters.h</in>
+                                  <in>ftcid.h</in>
+                                  <in>fterrdef.h</in>
+                                  <in>fterrors.h</in>
+                                  <in>ftgasp.h</in>
+                                  <in>ftglyph.h</in>
+                                  <in>ftgxval.h</in>
+                                  <in>ftgzip.h</in>
+                                  <in>ftimage.h</in>
+                                  <in>ftincrem.h</in>
+                                  <in>ftlcdfil.h</in>
+                                  <in>ftlist.h</in>
+                                  <in>ftlzw.h</in>
+                                  <in>ftmac.h</in>
+                                  <in>ftmm.h</in>
+                                  <in>ftmodapi.h</in>
+                                  <in>ftmoderr.h</in>
+                                  <in>ftotval.h</in>
+                                  <in>ftoutln.h</in>
+                                  <in>ftpfr.h</in>
+                                  <in>ftrender.h</in>
+                                  <in>ftsizes.h</in>
+                                  <in>ftsnames.h</in>
+                                  <in>ftstroke.h</in>
+                                  <in>ftsynth.h</in>
+                                  <in>ftsystem.h</in>
+                                  <in>fttrigon.h</in>
+                                  <in>fttypes.h</in>
+                                  <in>ftwinfnt.h</in>
+                                  <in>ftxf86.h</in>
+                                  <in>t1tables.h</in>
+                                  <in>ttnameid.h</in>
+                                  <in>tttables.h</in>
+                                  <in>tttags.h</in>
+                                  <in>ttunpat.h</in>
+                                </df>
+                                <in>ft2build.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_ttf.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                    <df name="Current">
+                      <df name="_CodeSignature">
+                      </df>
+                      <df name="Frameworks">
+                        <df name="FreeType.framework">
+                          <df name="Headers">
+                            <df name="freetype">
+                              <df name="config">
+                                <in>ftconfig.h</in>
+                                <in>ftheader.h</in>
+                                <in>ftmodule.h</in>
+                                <in>ftoption.h</in>
+                                <in>ftstdlib.h</in>
+                              </df>
+                              <in>freetype.h</in>
+                              <in>ftadvanc.h</in>
+                              <in>ftautoh.h</in>
+                              <in>ftbbox.h</in>
+                              <in>ftbdf.h</in>
+                              <in>ftbitmap.h</in>
+                              <in>ftbzip2.h</in>
+                              <in>ftcache.h</in>
+                              <in>ftcffdrv.h</in>
+                              <in>ftchapters.h</in>
+                              <in>ftcid.h</in>
+                              <in>fterrdef.h</in>
+                              <in>fterrors.h</in>
+                              <in>ftgasp.h</in>
+                              <in>ftglyph.h</in>
+                              <in>ftgxval.h</in>
+                              <in>ftgzip.h</in>
+                              <in>ftimage.h</in>
+                              <in>ftincrem.h</in>
+                              <in>ftlcdfil.h</in>
+                              <in>ftlist.h</in>
+                              <in>ftlzw.h</in>
+                              <in>ftmac.h</in>
+                              <in>ftmm.h</in>
+                              <in>ftmodapi.h</in>
+                              <in>ftmoderr.h</in>
+                              <in>ftotval.h</in>
+                              <in>ftoutln.h</in>
+                              <in>ftpfr.h</in>
+                              <in>ftrender.h</in>
+                              <in>ftsizes.h</in>
+                              <in>ftsnames.h</in>
+                              <in>ftstroke.h</in>
+                              <in>ftsynth.h</in>
+                              <in>ftsystem.h</in>
+                              <in>fttrigon.h</in>
+                              <in>fttypes.h</in>
+                              <in>ftwinfnt.h</in>
+                              <in>ftxf86.h</in>
+                              <in>t1tables.h</in>
+                              <in>ttnameid.h</in>
+                              <in>tttables.h</in>
+                              <in>tttags.h</in>
+                              <in>ttunpat.h</in>
+                            </df>
+                            <in>ft2build.h</in>
+                          </df>
+                          <df name="Resources">
+                            <df name="English.lproj">
+                            </df>
+                          </df>
+                          <df name="Versions">
+                            <df name="A">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="freetype">
+                                  <df name="config">
+                                    <in>ftconfig.h</in>
+                                    <in>ftheader.h</in>
+                                    <in>ftmodule.h</in>
+                                    <in>ftoption.h</in>
+                                    <in>ftstdlib.h</in>
+                                  </df>
+                                  <in>freetype.h</in>
+                                  <in>ftadvanc.h</in>
+                                  <in>ftautoh.h</in>
+                                  <in>ftbbox.h</in>
+                                  <in>ftbdf.h</in>
+                                  <in>ftbitmap.h</in>
+                                  <in>ftbzip2.h</in>
+                                  <in>ftcache.h</in>
+                                  <in>ftcffdrv.h</in>
+                                  <in>ftchapters.h</in>
+                                  <in>ftcid.h</in>
+                                  <in>fterrdef.h</in>
+                                  <in>fterrors.h</in>
+                                  <in>ftgasp.h</in>
+                                  <in>ftglyph.h</in>
+                                  <in>ftgxval.h</in>
+                                  <in>ftgzip.h</in>
+                                  <in>ftimage.h</in>
+                                  <in>ftincrem.h</in>
+                                  <in>ftlcdfil.h</in>
+                                  <in>ftlist.h</in>
+                                  <in>ftlzw.h</in>
+                                  <in>ftmac.h</in>
+                                  <in>ftmm.h</in>
+                                  <in>ftmodapi.h</in>
+                                  <in>ftmoderr.h</in>
+                                  <in>ftotval.h</in>
+                                  <in>ftoutln.h</in>
+                                  <in>ftpfr.h</in>
+                                  <in>ftrender.h</in>
+                                  <in>ftsizes.h</in>
+                                  <in>ftsnames.h</in>
+                                  <in>ftstroke.h</in>
+                                  <in>ftsynth.h</in>
+                                  <in>ftsystem.h</in>
+                                  <in>fttrigon.h</in>
+                                  <in>fttypes.h</in>
+                                  <in>ftwinfnt.h</in>
+                                  <in>ftxf86.h</in>
+                                  <in>t1tables.h</in>
+                                  <in>ttnameid.h</in>
+                                  <in>tttables.h</in>
+                                  <in>tttags.h</in>
+                                  <in>ttunpat.h</in>
+                                </df>
+                                <in>ft2build.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                            <df name="Current">
+                              <df name="_CodeSignature">
+                              </df>
+                              <df name="Headers">
+                                <df name="freetype">
+                                  <df name="config">
+                                    <in>ftconfig.h</in>
+                                    <in>ftheader.h</in>
+                                    <in>ftmodule.h</in>
+                                    <in>ftoption.h</in>
+                                    <in>ftstdlib.h</in>
+                                  </df>
+                                  <in>freetype.h</in>
+                                  <in>ftadvanc.h</in>
+                                  <in>ftautoh.h</in>
+                                  <in>ftbbox.h</in>
+                                  <in>ftbdf.h</in>
+                                  <in>ftbitmap.h</in>
+                                  <in>ftbzip2.h</in>
+                                  <in>ftcache.h</in>
+                                  <in>ftcffdrv.h</in>
+                                  <in>ftchapters.h</in>
+                                  <in>ftcid.h</in>
+                                  <in>fterrdef.h</in>
+                                  <in>fterrors.h</in>
+                                  <in>ftgasp.h</in>
+                                  <in>ftglyph.h</in>
+                                  <in>ftgxval.h</in>
+                                  <in>ftgzip.h</in>
+                                  <in>ftimage.h</in>
+                                  <in>ftincrem.h</in>
+                                  <in>ftlcdfil.h</in>
+                                  <in>ftlist.h</in>
+                                  <in>ftlzw.h</in>
+                                  <in>ftmac.h</in>
+                                  <in>ftmm.h</in>
+                                  <in>ftmodapi.h</in>
+                                  <in>ftmoderr.h</in>
+                                  <in>ftotval.h</in>
+                                  <in>ftoutln.h</in>
+                                  <in>ftpfr.h</in>
+                                  <in>ftrender.h</in>
+                                  <in>ftsizes.h</in>
+                                  <in>ftsnames.h</in>
+                                  <in>ftstroke.h</in>
+                                  <in>ftsynth.h</in>
+                                  <in>ftsystem.h</in>
+                                  <in>fttrigon.h</in>
+                                  <in>fttypes.h</in>
+                                  <in>ftwinfnt.h</in>
+                                  <in>ftxf86.h</in>
+                                  <in>t1tables.h</in>
+                                  <in>ttnameid.h</in>
+                                  <in>tttables.h</in>
+                                  <in>tttags.h</in>
+                                  <in>ttunpat.h</in>
+                                </df>
+                                <in>ft2build.h</in>
+                              </df>
+                              <df name="Resources">
+                                <df name="English.lproj">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Headers">
+                        <in>SDL_ttf.h</in>
+                      </df>
+                      <df name="Resources">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="MacOS">
+              </df>
+              <df name="Resources">
+                <df name="Box2D">
+                </df>
+                <df name="Fonts">
+                </df>
+                <df name="Maps">
+                </df>
+                <df name="Pics">
+                </df>
+                <df name="Sfx">
+                </df>
+                <df name="Spine">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="win32">
+        </df>
+        <df name="win64">
+        </df>
+      </df>
+      <df name="extern">
+        <df name="clipper">
+          <in>clipper.cpp</in>
+          <in>clipper.hpp</in>
+        </df>
+        <df name="poly2tri">
+          <df name="common">
+            <in>shapes.cc</in>
+            <in>shapes.h</in>
+            <in>utils.h</in>
+          </df>
+          <df name="sweep">
+            <in>advancing_front.cc</in>
+            <in>advancing_front.h</in>
+            <in>cdt.cc</in>
+            <in>cdt.h</in>
+            <in>sweep.cc</in>
+            <in>sweep.h</in>
+            <in>sweep_context.cc</in>
+            <in>sweep_context.h</in>
+          </df>
+          <in>poly2tri.h</in>
+        </df>
+      </df>
+      <df name="frameworks">
+        <df name="ios">
+        </df>
+        <df name="ios_temp">
+        </df>
+        <df name="osx">
+          <df name="Box2D.framework">
+            <df name="Headers">
+              <df name="Collision">
+                <df name="Shapes">
+                  <in>b2ChainShape.h</in>
+                  <in>b2CircleShape.h</in>
+                  <in>b2EdgeShape.h</in>
+                  <in>b2PolygonShape.h</in>
+                  <in>b2Shape.h</in>
+                </df>
+                <in>b2BroadPhase.h</in>
+                <in>b2Collision.h</in>
+                <in>b2Distance.h</in>
+                <in>b2DynamicTree.h</in>
+                <in>b2TimeOfImpact.h</in>
+              </df>
+              <df name="Common">
+                <in>b2BlockAllocator.h</in>
+                <in>b2Draw.h</in>
+                <in>b2GrowableStack.h</in>
+                <in>b2Math.h</in>
+                <in>b2Settings.h</in>
+                <in>b2StackAllocator.h</in>
+                <in>b2Timer.h</in>
+              </df>
+              <df name="Dynamics">
+                <df name="Contacts">
+                  <in>b2ChainAndCircleContact.h</in>
+                  <in>b2ChainAndPolygonContact.h</in>
+                  <in>b2CircleContact.h</in>
+                  <in>b2Contact.h</in>
+                  <in>b2ContactSolver.h</in>
+                  <in>b2EdgeAndCircleContact.h</in>
+                  <in>b2EdgeAndPolygonContact.h</in>
+                  <in>b2PolygonAndCircleContact.h</in>
+                  <in>b2PolygonContact.h</in>
+                </df>
+                <df name="Joints">
+                  <in>b2DistanceJoint.h</in>
+                  <in>b2FrictionJoint.h</in>
+                  <in>b2GearJoint.h</in>
+                  <in>b2Joint.h</in>
+                  <in>b2MotorJoint.h</in>
+                  <in>b2MouseJoint.h</in>
+                  <in>b2PrismaticJoint.h</in>
+                  <in>b2PulleyJoint.h</in>
+                  <in>b2RevoluteJoint.h</in>
+                  <in>b2RopeJoint.h</in>
+                  <in>b2WeldJoint.h</in>
+                  <in>b2WheelJoint.h</in>
+                </df>
+                <in>b2Body.h</in>
+                <in>b2ContactManager.h</in>
+                <in>b2Fixture.h</in>
+                <in>b2Island.h</in>
+                <in>b2TimeStep.h</in>
+                <in>b2World.h</in>
+                <in>b2WorldCallbacks.h</in>
+              </df>
+              <df name="Rope">
+                <in>b2Rope.h</in>
+              </df>
+              <in>Box2D.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <df name="Collision">
+                    <df name="Shapes">
+                      <in>b2ChainShape.h</in>
+                      <in>b2CircleShape.h</in>
+                      <in>b2EdgeShape.h</in>
+                      <in>b2PolygonShape.h</in>
+                      <in>b2Shape.h</in>
+                    </df>
+                    <in>b2BroadPhase.h</in>
+                    <in>b2Collision.h</in>
+                    <in>b2Distance.h</in>
+                    <in>b2DynamicTree.h</in>
+                    <in>b2TimeOfImpact.h</in>
+                  </df>
+                  <df name="Common">
+                    <in>b2BlockAllocator.h</in>
+                    <in>b2Draw.h</in>
+                    <in>b2GrowableStack.h</in>
+                    <in>b2Math.h</in>
+                    <in>b2Settings.h</in>
+                    <in>b2StackAllocator.h</in>
+                    <in>b2Timer.h</in>
+                  </df>
+                  <df name="Dynamics">
+                    <df name="Contacts">
+                      <in>b2ChainAndCircleContact.h</in>
+                      <in>b2ChainAndPolygonContact.h</in>
+                      <in>b2CircleContact.h</in>
+                      <in>b2Contact.h</in>
+                      <in>b2ContactSolver.h</in>
+                      <in>b2EdgeAndCircleContact.h</in>
+                      <in>b2EdgeAndPolygonContact.h</in>
+                      <in>b2PolygonAndCircleContact.h</in>
+                      <in>b2PolygonContact.h</in>
+                    </df>
+                    <df name="Joints">
+                      <in>b2DistanceJoint.h</in>
+                      <in>b2FrictionJoint.h</in>
+                      <in>b2GearJoint.h</in>
+                      <in>b2Joint.h</in>
+                      <in>b2MotorJoint.h</in>
+                      <in>b2MouseJoint.h</in>
+                      <in>b2PrismaticJoint.h</in>
+                      <in>b2PulleyJoint.h</in>
+                      <in>b2RevoluteJoint.h</in>
+                      <in>b2RopeJoint.h</in>
+                      <in>b2WeldJoint.h</in>
+                      <in>b2WheelJoint.h</in>
+                    </df>
+                    <in>b2Body.h</in>
+                    <in>b2ContactManager.h</in>
+                    <in>b2Fixture.h</in>
+                    <in>b2Island.h</in>
+                    <in>b2TimeStep.h</in>
+                    <in>b2World.h</in>
+                    <in>b2WorldCallbacks.h</in>
+                  </df>
+                  <df name="Rope">
+                    <in>b2Rope.h</in>
+                  </df>
+                  <in>Box2D.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <df name="Collision">
+                    <df name="Shapes">
+                      <in>b2ChainShape.h</in>
+                      <in>b2CircleShape.h</in>
+                      <in>b2EdgeShape.h</in>
+                      <in>b2PolygonShape.h</in>
+                      <in>b2Shape.h</in>
+                    </df>
+                    <in>b2BroadPhase.h</in>
+                    <in>b2Collision.h</in>
+                    <in>b2Distance.h</in>
+                    <in>b2DynamicTree.h</in>
+                    <in>b2TimeOfImpact.h</in>
+                  </df>
+                  <df name="Common">
+                    <in>b2BlockAllocator.h</in>
+                    <in>b2Draw.h</in>
+                    <in>b2GrowableStack.h</in>
+                    <in>b2Math.h</in>
+                    <in>b2Settings.h</in>
+                    <in>b2StackAllocator.h</in>
+                    <in>b2Timer.h</in>
+                  </df>
+                  <df name="Dynamics">
+                    <df name="Contacts">
+                      <in>b2ChainAndCircleContact.h</in>
+                      <in>b2ChainAndPolygonContact.h</in>
+                      <in>b2CircleContact.h</in>
+                      <in>b2Contact.h</in>
+                      <in>b2ContactSolver.h</in>
+                      <in>b2EdgeAndCircleContact.h</in>
+                      <in>b2EdgeAndPolygonContact.h</in>
+                      <in>b2PolygonAndCircleContact.h</in>
+                      <in>b2PolygonContact.h</in>
+                    </df>
+                    <df name="Joints">
+                      <in>b2DistanceJoint.h</in>
+                      <in>b2FrictionJoint.h</in>
+                      <in>b2GearJoint.h</in>
+                      <in>b2Joint.h</in>
+                      <in>b2MotorJoint.h</in>
+                      <in>b2MouseJoint.h</in>
+                      <in>b2PrismaticJoint.h</in>
+                      <in>b2PulleyJoint.h</in>
+                      <in>b2RevoluteJoint.h</in>
+                      <in>b2RopeJoint.h</in>
+                      <in>b2WeldJoint.h</in>
+                      <in>b2WheelJoint.h</in>
+                    </df>
+                    <in>b2Body.h</in>
+                    <in>b2ContactManager.h</in>
+                    <in>b2Fixture.h</in>
+                    <in>b2Island.h</in>
+                    <in>b2TimeStep.h</in>
+                    <in>b2World.h</in>
+                    <in>b2WorldCallbacks.h</in>
+                  </df>
+                  <df name="Rope">
+                    <in>b2Rope.h</in>
+                  </df>
+                  <in>Box2D.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="SDL2.framework">
+            <df name="Headers">
+              <in>SDL.h</in>
+              <in>SDL_assert.h</in>
+              <in>SDL_atomic.h</in>
+              <in>SDL_audio.h</in>
+              <in>SDL_bits.h</in>
+              <in>SDL_blendmode.h</in>
+              <in>SDL_clipboard.h</in>
+              <in>SDL_config.h</in>
+              <in>SDL_config_macosx.h</in>
+              <in>SDL_copying.h</in>
+              <in>SDL_cpuinfo.h</in>
+              <in>SDL_endian.h</in>
+              <in>SDL_error.h</in>
+              <in>SDL_events.h</in>
+              <in>SDL_filesystem.h</in>
+              <in>SDL_gamecontroller.h</in>
+              <in>SDL_gesture.h</in>
+              <in>SDL_haptic.h</in>
+              <in>SDL_hints.h</in>
+              <in>SDL_joystick.h</in>
+              <in>SDL_keyboard.h</in>
+              <in>SDL_keycode.h</in>
+              <in>SDL_loadso.h</in>
+              <in>SDL_log.h</in>
+              <in>SDL_main.h</in>
+              <in>SDL_messagebox.h</in>
+              <in>SDL_mouse.h</in>
+              <in>SDL_mutex.h</in>
+              <in>SDL_name.h</in>
+              <in>SDL_opengl.h</in>
+              <in>SDL_opengl_glext.h</in>
+              <in>SDL_opengles.h</in>
+              <in>SDL_opengles2.h</in>
+              <in>SDL_opengles2_gl2.h</in>
+              <in>SDL_opengles2_gl2ext.h</in>
+              <in>SDL_opengles2_gl2platform.h</in>
+              <in>SDL_opengles2_khrplatform.h</in>
+              <in>SDL_pixels.h</in>
+              <in>SDL_platform.h</in>
+              <in>SDL_power.h</in>
+              <in>SDL_quit.h</in>
+              <in>SDL_rect.h</in>
+              <in>SDL_render.h</in>
+              <in>SDL_revision.h</in>
+              <in>SDL_rwops.h</in>
+              <in>SDL_scancode.h</in>
+              <in>SDL_shape.h</in>
+              <in>SDL_stdinc.h</in>
+              <in>SDL_surface.h</in>
+              <in>SDL_system.h</in>
+              <in>SDL_syswm.h</in>
+              <in>SDL_thread.h</in>
+              <in>SDL_timer.h</in>
+              <in>SDL_touch.h</in>
+              <in>SDL_types.h</in>
+              <in>SDL_version.h</in>
+              <in>SDL_video.h</in>
+              <in>begin_code.h</in>
+              <in>close_code.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <in>SDL.h</in>
+                  <in>SDL_assert.h</in>
+                  <in>SDL_atomic.h</in>
+                  <in>SDL_audio.h</in>
+                  <in>SDL_bits.h</in>
+                  <in>SDL_blendmode.h</in>
+                  <in>SDL_clipboard.h</in>
+                  <in>SDL_config.h</in>
+                  <in>SDL_config_macosx.h</in>
+                  <in>SDL_copying.h</in>
+                  <in>SDL_cpuinfo.h</in>
+                  <in>SDL_endian.h</in>
+                  <in>SDL_error.h</in>
+                  <in>SDL_events.h</in>
+                  <in>SDL_filesystem.h</in>
+                  <in>SDL_gamecontroller.h</in>
+                  <in>SDL_gesture.h</in>
+                  <in>SDL_haptic.h</in>
+                  <in>SDL_hints.h</in>
+                  <in>SDL_joystick.h</in>
+                  <in>SDL_keyboard.h</in>
+                  <in>SDL_keycode.h</in>
+                  <in>SDL_loadso.h</in>
+                  <in>SDL_log.h</in>
+                  <in>SDL_main.h</in>
+                  <in>SDL_messagebox.h</in>
+                  <in>SDL_mouse.h</in>
+                  <in>SDL_mutex.h</in>
+                  <in>SDL_name.h</in>
+                  <in>SDL_opengl.h</in>
+                  <in>SDL_opengl_glext.h</in>
+                  <in>SDL_opengles.h</in>
+                  <in>SDL_opengles2.h</in>
+                  <in>SDL_opengles2_gl2.h</in>
+                  <in>SDL_opengles2_gl2ext.h</in>
+                  <in>SDL_opengles2_gl2platform.h</in>
+                  <in>SDL_opengles2_khrplatform.h</in>
+                  <in>SDL_pixels.h</in>
+                  <in>SDL_platform.h</in>
+                  <in>SDL_power.h</in>
+                  <in>SDL_quit.h</in>
+                  <in>SDL_rect.h</in>
+                  <in>SDL_render.h</in>
+                  <in>SDL_revision.h</in>
+                  <in>SDL_rwops.h</in>
+                  <in>SDL_scancode.h</in>
+                  <in>SDL_shape.h</in>
+                  <in>SDL_stdinc.h</in>
+                  <in>SDL_surface.h</in>
+                  <in>SDL_system.h</in>
+                  <in>SDL_syswm.h</in>
+                  <in>SDL_thread.h</in>
+                  <in>SDL_timer.h</in>
+                  <in>SDL_touch.h</in>
+                  <in>SDL_types.h</in>
+                  <in>SDL_version.h</in>
+                  <in>SDL_video.h</in>
+                  <in>begin_code.h</in>
+                  <in>close_code.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <in>SDL.h</in>
+                  <in>SDL_assert.h</in>
+                  <in>SDL_atomic.h</in>
+                  <in>SDL_audio.h</in>
+                  <in>SDL_bits.h</in>
+                  <in>SDL_blendmode.h</in>
+                  <in>SDL_clipboard.h</in>
+                  <in>SDL_config.h</in>
+                  <in>SDL_config_macosx.h</in>
+                  <in>SDL_copying.h</in>
+                  <in>SDL_cpuinfo.h</in>
+                  <in>SDL_endian.h</in>
+                  <in>SDL_error.h</in>
+                  <in>SDL_events.h</in>
+                  <in>SDL_filesystem.h</in>
+                  <in>SDL_gamecontroller.h</in>
+                  <in>SDL_gesture.h</in>
+                  <in>SDL_haptic.h</in>
+                  <in>SDL_hints.h</in>
+                  <in>SDL_joystick.h</in>
+                  <in>SDL_keyboard.h</in>
+                  <in>SDL_keycode.h</in>
+                  <in>SDL_loadso.h</in>
+                  <in>SDL_log.h</in>
+                  <in>SDL_main.h</in>
+                  <in>SDL_messagebox.h</in>
+                  <in>SDL_mouse.h</in>
+                  <in>SDL_mutex.h</in>
+                  <in>SDL_name.h</in>
+                  <in>SDL_opengl.h</in>
+                  <in>SDL_opengl_glext.h</in>
+                  <in>SDL_opengles.h</in>
+                  <in>SDL_opengles2.h</in>
+                  <in>SDL_opengles2_gl2.h</in>
+                  <in>SDL_opengles2_gl2ext.h</in>
+                  <in>SDL_opengles2_gl2platform.h</in>
+                  <in>SDL_opengles2_khrplatform.h</in>
+                  <in>SDL_pixels.h</in>
+                  <in>SDL_platform.h</in>
+                  <in>SDL_power.h</in>
+                  <in>SDL_quit.h</in>
+                  <in>SDL_rect.h</in>
+                  <in>SDL_render.h</in>
+                  <in>SDL_revision.h</in>
+                  <in>SDL_rwops.h</in>
+                  <in>SDL_scancode.h</in>
+                  <in>SDL_shape.h</in>
+                  <in>SDL_stdinc.h</in>
+                  <in>SDL_surface.h</in>
+                  <in>SDL_system.h</in>
+                  <in>SDL_syswm.h</in>
+                  <in>SDL_thread.h</in>
+                  <in>SDL_timer.h</in>
+                  <in>SDL_touch.h</in>
+                  <in>SDL_types.h</in>
+                  <in>SDL_version.h</in>
+                  <in>SDL_video.h</in>
+                  <in>begin_code.h</in>
+                  <in>close_code.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="SDL2_image.framework">
+            <df name="Frameworks">
+              <df name="webp.framework">
+                <df name="Headers">
+                  <df name="webp">
+                    <in>decode.h</in>
+                    <in>encode.h</in>
+                    <in>types.h</in>
+                  </df>
+                </df>
+                <df name="Resources">
+                  <df name="English.lproj">
+                  </df>
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="webp">
+                        <in>decode.h</in>
+                        <in>encode.h</in>
+                        <in>types.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="webp">
+                        <in>decode.h</in>
+                        <in>encode.h</in>
+                        <in>types.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="Headers">
+              <in>SDL_image.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="webp.framework">
+                    <df name="Headers">
+                      <df name="webp">
+                        <in>decode.h</in>
+                        <in>encode.h</in>
+                        <in>types.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="webp">
+                            <in>decode.h</in>
+                            <in>encode.h</in>
+                            <in>types.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="webp">
+                            <in>decode.h</in>
+                            <in>encode.h</in>
+                            <in>types.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_image.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="webp.framework">
+                    <df name="Headers">
+                      <df name="webp">
+                        <in>decode.h</in>
+                        <in>encode.h</in>
+                        <in>types.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="webp">
+                            <in>decode.h</in>
+                            <in>encode.h</in>
+                            <in>types.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="webp">
+                            <in>decode.h</in>
+                            <in>encode.h</in>
+                            <in>types.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_image.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="SDL2_mixer.framework">
+            <df name="Frameworks">
+              <df name="FLAC.framework">
+                <df name="Headers">
+                  <df name="FLAC">
+                    <in>all.h</in>
+                    <in>assert.h</in>
+                    <in>callback.h</in>
+                    <in>export.h</in>
+                    <in>format.h</in>
+                    <in>metadata.h</in>
+                    <in>ordinals.h</in>
+                    <in>stream_decoder.h</in>
+                    <in>stream_encoder.h</in>
+                  </df>
+                </df>
+                <df name="Resources">
+                  <df name="English.lproj">
+                  </df>
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="FLAC">
+                        <in>all.h</in>
+                        <in>assert.h</in>
+                        <in>callback.h</in>
+                        <in>export.h</in>
+                        <in>format.h</in>
+                        <in>metadata.h</in>
+                        <in>ordinals.h</in>
+                        <in>stream_decoder.h</in>
+                        <in>stream_encoder.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="FLAC">
+                        <in>all.h</in>
+                        <in>assert.h</in>
+                        <in>callback.h</in>
+                        <in>export.h</in>
+                        <in>format.h</in>
+                        <in>metadata.h</in>
+                        <in>ordinals.h</in>
+                        <in>stream_decoder.h</in>
+                        <in>stream_encoder.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="modplug.framework">
+                <df name="Headers">
+                  <in>modplug.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>modplug.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>modplug.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="Ogg.framework">
+                <df name="Headers">
+                  <in>ogg.h</in>
+                  <in>os_types.h</in>
+                </df>
+                <df name="Resources">
+                  <df name="English.lproj">
+                  </df>
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>ogg.h</in>
+                      <in>os_types.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>ogg.h</in>
+                      <in>os_types.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="smpeg2.framework">
+                <df name="Headers">
+                  <in>MPEGframe.h</in>
+                  <in>smpeg.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>MPEGframe.h</in>
+                      <in>smpeg.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>MPEGframe.h</in>
+                      <in>smpeg.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="Vorbis.framework">
+                <df name="Headers">
+                  <in>codec.h</in>
+                  <in>vorbisenc.h</in>
+                  <in>vorbisfile.h</in>
+                </df>
+                <df name="Resources">
+                  <df name="English.lproj">
+                  </df>
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>codec.h</in>
+                      <in>vorbisenc.h</in>
+                      <in>vorbisfile.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <in>codec.h</in>
+                      <in>vorbisenc.h</in>
+                      <in>vorbisfile.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="Headers">
+              <in>SDL_mixer.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="FLAC.framework">
+                    <df name="Headers">
+                      <df name="FLAC">
+                        <in>all.h</in>
+                        <in>assert.h</in>
+                        <in>callback.h</in>
+                        <in>export.h</in>
+                        <in>format.h</in>
+                        <in>metadata.h</in>
+                        <in>ordinals.h</in>
+                        <in>stream_decoder.h</in>
+                        <in>stream_encoder.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="FLAC">
+                            <in>all.h</in>
+                            <in>assert.h</in>
+                            <in>callback.h</in>
+                            <in>export.h</in>
+                            <in>format.h</in>
+                            <in>metadata.h</in>
+                            <in>ordinals.h</in>
+                            <in>stream_decoder.h</in>
+                            <in>stream_encoder.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="FLAC">
+                            <in>all.h</in>
+                            <in>assert.h</in>
+                            <in>callback.h</in>
+                            <in>export.h</in>
+                            <in>format.h</in>
+                            <in>metadata.h</in>
+                            <in>ordinals.h</in>
+                            <in>stream_decoder.h</in>
+                            <in>stream_encoder.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="modplug.framework">
+                    <df name="Headers">
+                      <in>modplug.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>modplug.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>modplug.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Ogg.framework">
+                    <df name="Headers">
+                      <in>ogg.h</in>
+                      <in>os_types.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>ogg.h</in>
+                          <in>os_types.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>ogg.h</in>
+                          <in>os_types.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="smpeg2.framework">
+                    <df name="Headers">
+                      <in>MPEGframe.h</in>
+                      <in>smpeg.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>MPEGframe.h</in>
+                          <in>smpeg.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>MPEGframe.h</in>
+                          <in>smpeg.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Vorbis.framework">
+                    <df name="Headers">
+                      <in>codec.h</in>
+                      <in>vorbisenc.h</in>
+                      <in>vorbisfile.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>codec.h</in>
+                          <in>vorbisenc.h</in>
+                          <in>vorbisfile.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>codec.h</in>
+                          <in>vorbisenc.h</in>
+                          <in>vorbisfile.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_mixer.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="FLAC.framework">
+                    <df name="Headers">
+                      <df name="FLAC">
+                        <in>all.h</in>
+                        <in>assert.h</in>
+                        <in>callback.h</in>
+                        <in>export.h</in>
+                        <in>format.h</in>
+                        <in>metadata.h</in>
+                        <in>ordinals.h</in>
+                        <in>stream_decoder.h</in>
+                        <in>stream_encoder.h</in>
+                      </df>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="FLAC">
+                            <in>all.h</in>
+                            <in>assert.h</in>
+                            <in>callback.h</in>
+                            <in>export.h</in>
+                            <in>format.h</in>
+                            <in>metadata.h</in>
+                            <in>ordinals.h</in>
+                            <in>stream_decoder.h</in>
+                            <in>stream_encoder.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="FLAC">
+                            <in>all.h</in>
+                            <in>assert.h</in>
+                            <in>callback.h</in>
+                            <in>export.h</in>
+                            <in>format.h</in>
+                            <in>metadata.h</in>
+                            <in>ordinals.h</in>
+                            <in>stream_decoder.h</in>
+                            <in>stream_encoder.h</in>
+                          </df>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="modplug.framework">
+                    <df name="Headers">
+                      <in>modplug.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>modplug.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>modplug.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Ogg.framework">
+                    <df name="Headers">
+                      <in>ogg.h</in>
+                      <in>os_types.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>ogg.h</in>
+                          <in>os_types.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>ogg.h</in>
+                          <in>os_types.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="smpeg2.framework">
+                    <df name="Headers">
+                      <in>MPEGframe.h</in>
+                      <in>smpeg.h</in>
+                    </df>
+                    <df name="Resources">
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>MPEGframe.h</in>
+                          <in>smpeg.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>MPEGframe.h</in>
+                          <in>smpeg.h</in>
+                        </df>
+                        <df name="Resources">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Vorbis.framework">
+                    <df name="Headers">
+                      <in>codec.h</in>
+                      <in>vorbisenc.h</in>
+                      <in>vorbisfile.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>codec.h</in>
+                          <in>vorbisenc.h</in>
+                          <in>vorbisfile.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <in>codec.h</in>
+                          <in>vorbisenc.h</in>
+                          <in>vorbisfile.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_mixer.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="SDL2_net.framework">
+            <df name="Headers">
+              <in>SDL_net.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <in>SDL_net.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Headers">
+                  <in>SDL_net.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="SDL2_ttf.framework">
+            <df name="Frameworks">
+              <df name="FreeType.framework">
+                <df name="Headers">
+                  <df name="freetype">
+                    <df name="config">
+                      <in>ftconfig.h</in>
+                      <in>ftheader.h</in>
+                      <in>ftmodule.h</in>
+                      <in>ftoption.h</in>
+                      <in>ftstdlib.h</in>
+                    </df>
+                    <in>freetype.h</in>
+                    <in>ftadvanc.h</in>
+                    <in>ftautoh.h</in>
+                    <in>ftbbox.h</in>
+                    <in>ftbdf.h</in>
+                    <in>ftbitmap.h</in>
+                    <in>ftbzip2.h</in>
+                    <in>ftcache.h</in>
+                    <in>ftcffdrv.h</in>
+                    <in>ftchapters.h</in>
+                    <in>ftcid.h</in>
+                    <in>fterrdef.h</in>
+                    <in>fterrors.h</in>
+                    <in>ftgasp.h</in>
+                    <in>ftglyph.h</in>
+                    <in>ftgxval.h</in>
+                    <in>ftgzip.h</in>
+                    <in>ftimage.h</in>
+                    <in>ftincrem.h</in>
+                    <in>ftlcdfil.h</in>
+                    <in>ftlist.h</in>
+                    <in>ftlzw.h</in>
+                    <in>ftmac.h</in>
+                    <in>ftmm.h</in>
+                    <in>ftmodapi.h</in>
+                    <in>ftmoderr.h</in>
+                    <in>ftotval.h</in>
+                    <in>ftoutln.h</in>
+                    <in>ftpfr.h</in>
+                    <in>ftrender.h</in>
+                    <in>ftsizes.h</in>
+                    <in>ftsnames.h</in>
+                    <in>ftstroke.h</in>
+                    <in>ftsynth.h</in>
+                    <in>ftsystem.h</in>
+                    <in>fttrigon.h</in>
+                    <in>fttypes.h</in>
+                    <in>ftwinfnt.h</in>
+                    <in>ftxf86.h</in>
+                    <in>t1tables.h</in>
+                    <in>ttnameid.h</in>
+                    <in>tttables.h</in>
+                    <in>tttags.h</in>
+                    <in>ttunpat.h</in>
+                  </df>
+                  <in>ft2build.h</in>
+                </df>
+                <df name="Resources">
+                  <df name="English.lproj">
+                  </df>
+                </df>
+                <df name="Versions">
+                  <df name="A">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="freetype">
+                        <df name="config">
+                          <in>ftconfig.h</in>
+                          <in>ftheader.h</in>
+                          <in>ftmodule.h</in>
+                          <in>ftoption.h</in>
+                          <in>ftstdlib.h</in>
+                        </df>
+                        <in>freetype.h</in>
+                        <in>ftadvanc.h</in>
+                        <in>ftautoh.h</in>
+                        <in>ftbbox.h</in>
+                        <in>ftbdf.h</in>
+                        <in>ftbitmap.h</in>
+                        <in>ftbzip2.h</in>
+                        <in>ftcache.h</in>
+                        <in>ftcffdrv.h</in>
+                        <in>ftchapters.h</in>
+                        <in>ftcid.h</in>
+                        <in>fterrdef.h</in>
+                        <in>fterrors.h</in>
+                        <in>ftgasp.h</in>
+                        <in>ftglyph.h</in>
+                        <in>ftgxval.h</in>
+                        <in>ftgzip.h</in>
+                        <in>ftimage.h</in>
+                        <in>ftincrem.h</in>
+                        <in>ftlcdfil.h</in>
+                        <in>ftlist.h</in>
+                        <in>ftlzw.h</in>
+                        <in>ftmac.h</in>
+                        <in>ftmm.h</in>
+                        <in>ftmodapi.h</in>
+                        <in>ftmoderr.h</in>
+                        <in>ftotval.h</in>
+                        <in>ftoutln.h</in>
+                        <in>ftpfr.h</in>
+                        <in>ftrender.h</in>
+                        <in>ftsizes.h</in>
+                        <in>ftsnames.h</in>
+                        <in>ftstroke.h</in>
+                        <in>ftsynth.h</in>
+                        <in>ftsystem.h</in>
+                        <in>fttrigon.h</in>
+                        <in>fttypes.h</in>
+                        <in>ftwinfnt.h</in>
+                        <in>ftxf86.h</in>
+                        <in>t1tables.h</in>
+                        <in>ttnameid.h</in>
+                        <in>tttables.h</in>
+                        <in>tttags.h</in>
+                        <in>ttunpat.h</in>
+                      </df>
+                      <in>ft2build.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                  <df name="Current">
+                    <df name="_CodeSignature">
+                    </df>
+                    <df name="Headers">
+                      <df name="freetype">
+                        <df name="config">
+                          <in>ftconfig.h</in>
+                          <in>ftheader.h</in>
+                          <in>ftmodule.h</in>
+                          <in>ftoption.h</in>
+                          <in>ftstdlib.h</in>
+                        </df>
+                        <in>freetype.h</in>
+                        <in>ftadvanc.h</in>
+                        <in>ftautoh.h</in>
+                        <in>ftbbox.h</in>
+                        <in>ftbdf.h</in>
+                        <in>ftbitmap.h</in>
+                        <in>ftbzip2.h</in>
+                        <in>ftcache.h</in>
+                        <in>ftcffdrv.h</in>
+                        <in>ftchapters.h</in>
+                        <in>ftcid.h</in>
+                        <in>fterrdef.h</in>
+                        <in>fterrors.h</in>
+                        <in>ftgasp.h</in>
+                        <in>ftglyph.h</in>
+                        <in>ftgxval.h</in>
+                        <in>ftgzip.h</in>
+                        <in>ftimage.h</in>
+                        <in>ftincrem.h</in>
+                        <in>ftlcdfil.h</in>
+                        <in>ftlist.h</in>
+                        <in>ftlzw.h</in>
+                        <in>ftmac.h</in>
+                        <in>ftmm.h</in>
+                        <in>ftmodapi.h</in>
+                        <in>ftmoderr.h</in>
+                        <in>ftotval.h</in>
+                        <in>ftoutln.h</in>
+                        <in>ftpfr.h</in>
+                        <in>ftrender.h</in>
+                        <in>ftsizes.h</in>
+                        <in>ftsnames.h</in>
+                        <in>ftstroke.h</in>
+                        <in>ftsynth.h</in>
+                        <in>ftsystem.h</in>
+                        <in>fttrigon.h</in>
+                        <in>fttypes.h</in>
+                        <in>ftwinfnt.h</in>
+                        <in>ftxf86.h</in>
+                        <in>t1tables.h</in>
+                        <in>ttnameid.h</in>
+                        <in>tttables.h</in>
+                        <in>tttags.h</in>
+                        <in>ttunpat.h</in>
+                      </df>
+                      <in>ft2build.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="Headers">
+              <in>SDL_ttf.h</in>
+            </df>
+            <df name="Resources">
+            </df>
+            <df name="Versions">
+              <df name="A">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="FreeType.framework">
+                    <df name="Headers">
+                      <df name="freetype">
+                        <df name="config">
+                          <in>ftconfig.h</in>
+                          <in>ftheader.h</in>
+                          <in>ftmodule.h</in>
+                          <in>ftoption.h</in>
+                          <in>ftstdlib.h</in>
+                        </df>
+                        <in>freetype.h</in>
+                        <in>ftadvanc.h</in>
+                        <in>ftautoh.h</in>
+                        <in>ftbbox.h</in>
+                        <in>ftbdf.h</in>
+                        <in>ftbitmap.h</in>
+                        <in>ftbzip2.h</in>
+                        <in>ftcache.h</in>
+                        <in>ftcffdrv.h</in>
+                        <in>ftchapters.h</in>
+                        <in>ftcid.h</in>
+                        <in>fterrdef.h</in>
+                        <in>fterrors.h</in>
+                        <in>ftgasp.h</in>
+                        <in>ftglyph.h</in>
+                        <in>ftgxval.h</in>
+                        <in>ftgzip.h</in>
+                        <in>ftimage.h</in>
+                        <in>ftincrem.h</in>
+                        <in>ftlcdfil.h</in>
+                        <in>ftlist.h</in>
+                        <in>ftlzw.h</in>
+                        <in>ftmac.h</in>
+                        <in>ftmm.h</in>
+                        <in>ftmodapi.h</in>
+                        <in>ftmoderr.h</in>
+                        <in>ftotval.h</in>
+                        <in>ftoutln.h</in>
+                        <in>ftpfr.h</in>
+                        <in>ftrender.h</in>
+                        <in>ftsizes.h</in>
+                        <in>ftsnames.h</in>
+                        <in>ftstroke.h</in>
+                        <in>ftsynth.h</in>
+                        <in>ftsystem.h</in>
+                        <in>fttrigon.h</in>
+                        <in>fttypes.h</in>
+                        <in>ftwinfnt.h</in>
+                        <in>ftxf86.h</in>
+                        <in>t1tables.h</in>
+                        <in>ttnameid.h</in>
+                        <in>tttables.h</in>
+                        <in>tttags.h</in>
+                        <in>ttunpat.h</in>
+                      </df>
+                      <in>ft2build.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="freetype">
+                            <df name="config">
+                              <in>ftconfig.h</in>
+                              <in>ftheader.h</in>
+                              <in>ftmodule.h</in>
+                              <in>ftoption.h</in>
+                              <in>ftstdlib.h</in>
+                            </df>
+                            <in>freetype.h</in>
+                            <in>ftadvanc.h</in>
+                            <in>ftautoh.h</in>
+                            <in>ftbbox.h</in>
+                            <in>ftbdf.h</in>
+                            <in>ftbitmap.h</in>
+                            <in>ftbzip2.h</in>
+                            <in>ftcache.h</in>
+                            <in>ftcffdrv.h</in>
+                            <in>ftchapters.h</in>
+                            <in>ftcid.h</in>
+                            <in>fterrdef.h</in>
+                            <in>fterrors.h</in>
+                            <in>ftgasp.h</in>
+                            <in>ftglyph.h</in>
+                            <in>ftgxval.h</in>
+                            <in>ftgzip.h</in>
+                            <in>ftimage.h</in>
+                            <in>ftincrem.h</in>
+                            <in>ftlcdfil.h</in>
+                            <in>ftlist.h</in>
+                            <in>ftlzw.h</in>
+                            <in>ftmac.h</in>
+                            <in>ftmm.h</in>
+                            <in>ftmodapi.h</in>
+                            <in>ftmoderr.h</in>
+                            <in>ftotval.h</in>
+                            <in>ftoutln.h</in>
+                            <in>ftpfr.h</in>
+                            <in>ftrender.h</in>
+                            <in>ftsizes.h</in>
+                            <in>ftsnames.h</in>
+                            <in>ftstroke.h</in>
+                            <in>ftsynth.h</in>
+                            <in>ftsystem.h</in>
+                            <in>fttrigon.h</in>
+                            <in>fttypes.h</in>
+                            <in>ftwinfnt.h</in>
+                            <in>ftxf86.h</in>
+                            <in>t1tables.h</in>
+                            <in>ttnameid.h</in>
+                            <in>tttables.h</in>
+                            <in>tttags.h</in>
+                            <in>ttunpat.h</in>
+                          </df>
+                          <in>ft2build.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="freetype">
+                            <df name="config">
+                              <in>ftconfig.h</in>
+                              <in>ftheader.h</in>
+                              <in>ftmodule.h</in>
+                              <in>ftoption.h</in>
+                              <in>ftstdlib.h</in>
+                            </df>
+                            <in>freetype.h</in>
+                            <in>ftadvanc.h</in>
+                            <in>ftautoh.h</in>
+                            <in>ftbbox.h</in>
+                            <in>ftbdf.h</in>
+                            <in>ftbitmap.h</in>
+                            <in>ftbzip2.h</in>
+                            <in>ftcache.h</in>
+                            <in>ftcffdrv.h</in>
+                            <in>ftchapters.h</in>
+                            <in>ftcid.h</in>
+                            <in>fterrdef.h</in>
+                            <in>fterrors.h</in>
+                            <in>ftgasp.h</in>
+                            <in>ftglyph.h</in>
+                            <in>ftgxval.h</in>
+                            <in>ftgzip.h</in>
+                            <in>ftimage.h</in>
+                            <in>ftincrem.h</in>
+                            <in>ftlcdfil.h</in>
+                            <in>ftlist.h</in>
+                            <in>ftlzw.h</in>
+                            <in>ftmac.h</in>
+                            <in>ftmm.h</in>
+                            <in>ftmodapi.h</in>
+                            <in>ftmoderr.h</in>
+                            <in>ftotval.h</in>
+                            <in>ftoutln.h</in>
+                            <in>ftpfr.h</in>
+                            <in>ftrender.h</in>
+                            <in>ftsizes.h</in>
+                            <in>ftsnames.h</in>
+                            <in>ftstroke.h</in>
+                            <in>ftsynth.h</in>
+                            <in>ftsystem.h</in>
+                            <in>fttrigon.h</in>
+                            <in>fttypes.h</in>
+                            <in>ftwinfnt.h</in>
+                            <in>ftxf86.h</in>
+                            <in>t1tables.h</in>
+                            <in>ttnameid.h</in>
+                            <in>tttables.h</in>
+                            <in>tttags.h</in>
+                            <in>ttunpat.h</in>
+                          </df>
+                          <in>ft2build.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_ttf.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+              <df name="Current">
+                <df name="_CodeSignature">
+                </df>
+                <df name="Frameworks">
+                  <df name="FreeType.framework">
+                    <df name="Headers">
+                      <df name="freetype">
+                        <df name="config">
+                          <in>ftconfig.h</in>
+                          <in>ftheader.h</in>
+                          <in>ftmodule.h</in>
+                          <in>ftoption.h</in>
+                          <in>ftstdlib.h</in>
+                        </df>
+                        <in>freetype.h</in>
+                        <in>ftadvanc.h</in>
+                        <in>ftautoh.h</in>
+                        <in>ftbbox.h</in>
+                        <in>ftbdf.h</in>
+                        <in>ftbitmap.h</in>
+                        <in>ftbzip2.h</in>
+                        <in>ftcache.h</in>
+                        <in>ftcffdrv.h</in>
+                        <in>ftchapters.h</in>
+                        <in>ftcid.h</in>
+                        <in>fterrdef.h</in>
+                        <in>fterrors.h</in>
+                        <in>ftgasp.h</in>
+                        <in>ftglyph.h</in>
+                        <in>ftgxval.h</in>
+                        <in>ftgzip.h</in>
+                        <in>ftimage.h</in>
+                        <in>ftincrem.h</in>
+                        <in>ftlcdfil.h</in>
+                        <in>ftlist.h</in>
+                        <in>ftlzw.h</in>
+                        <in>ftmac.h</in>
+                        <in>ftmm.h</in>
+                        <in>ftmodapi.h</in>
+                        <in>ftmoderr.h</in>
+                        <in>ftotval.h</in>
+                        <in>ftoutln.h</in>
+                        <in>ftpfr.h</in>
+                        <in>ftrender.h</in>
+                        <in>ftsizes.h</in>
+                        <in>ftsnames.h</in>
+                        <in>ftstroke.h</in>
+                        <in>ftsynth.h</in>
+                        <in>ftsystem.h</in>
+                        <in>fttrigon.h</in>
+                        <in>fttypes.h</in>
+                        <in>ftwinfnt.h</in>
+                        <in>ftxf86.h</in>
+                        <in>t1tables.h</in>
+                        <in>ttnameid.h</in>
+                        <in>tttables.h</in>
+                        <in>tttags.h</in>
+                        <in>ttunpat.h</in>
+                      </df>
+                      <in>ft2build.h</in>
+                    </df>
+                    <df name="Resources">
+                      <df name="English.lproj">
+                      </df>
+                    </df>
+                    <df name="Versions">
+                      <df name="A">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="freetype">
+                            <df name="config">
+                              <in>ftconfig.h</in>
+                              <in>ftheader.h</in>
+                              <in>ftmodule.h</in>
+                              <in>ftoption.h</in>
+                              <in>ftstdlib.h</in>
+                            </df>
+                            <in>freetype.h</in>
+                            <in>ftadvanc.h</in>
+                            <in>ftautoh.h</in>
+                            <in>ftbbox.h</in>
+                            <in>ftbdf.h</in>
+                            <in>ftbitmap.h</in>
+                            <in>ftbzip2.h</in>
+                            <in>ftcache.h</in>
+                            <in>ftcffdrv.h</in>
+                            <in>ftchapters.h</in>
+                            <in>ftcid.h</in>
+                            <in>fterrdef.h</in>
+                            <in>fterrors.h</in>
+                            <in>ftgasp.h</in>
+                            <in>ftglyph.h</in>
+                            <in>ftgxval.h</in>
+                            <in>ftgzip.h</in>
+                            <in>ftimage.h</in>
+                            <in>ftincrem.h</in>
+                            <in>ftlcdfil.h</in>
+                            <in>ftlist.h</in>
+                            <in>ftlzw.h</in>
+                            <in>ftmac.h</in>
+                            <in>ftmm.h</in>
+                            <in>ftmodapi.h</in>
+                            <in>ftmoderr.h</in>
+                            <in>ftotval.h</in>
+                            <in>ftoutln.h</in>
+                            <in>ftpfr.h</in>
+                            <in>ftrender.h</in>
+                            <in>ftsizes.h</in>
+                            <in>ftsnames.h</in>
+                            <in>ftstroke.h</in>
+                            <in>ftsynth.h</in>
+                            <in>ftsystem.h</in>
+                            <in>fttrigon.h</in>
+                            <in>fttypes.h</in>
+                            <in>ftwinfnt.h</in>
+                            <in>ftxf86.h</in>
+                            <in>t1tables.h</in>
+                            <in>ttnameid.h</in>
+                            <in>tttables.h</in>
+                            <in>tttags.h</in>
+                            <in>ttunpat.h</in>
+                          </df>
+                          <in>ft2build.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                      <df name="Current">
+                        <df name="_CodeSignature">
+                        </df>
+                        <df name="Headers">
+                          <df name="freetype">
+                            <df name="config">
+                              <in>ftconfig.h</in>
+                              <in>ftheader.h</in>
+                              <in>ftmodule.h</in>
+                              <in>ftoption.h</in>
+                              <in>ftstdlib.h</in>
+                            </df>
+                            <in>freetype.h</in>
+                            <in>ftadvanc.h</in>
+                            <in>ftautoh.h</in>
+                            <in>ftbbox.h</in>
+                            <in>ftbdf.h</in>
+                            <in>ftbitmap.h</in>
+                            <in>ftbzip2.h</in>
+                            <in>ftcache.h</in>
+                            <in>ftcffdrv.h</in>
+                            <in>ftchapters.h</in>
+                            <in>ftcid.h</in>
+                            <in>fterrdef.h</in>
+                            <in>fterrors.h</in>
+                            <in>ftgasp.h</in>
+                            <in>ftglyph.h</in>
+                            <in>ftgxval.h</in>
+                            <in>ftgzip.h</in>
+                            <in>ftimage.h</in>
+                            <in>ftincrem.h</in>
+                            <in>ftlcdfil.h</in>
+                            <in>ftlist.h</in>
+                            <in>ftlzw.h</in>
+                            <in>ftmac.h</in>
+                            <in>ftmm.h</in>
+                            <in>ftmodapi.h</in>
+                            <in>ftmoderr.h</in>
+                            <in>ftotval.h</in>
+                            <in>ftoutln.h</in>
+                            <in>ftpfr.h</in>
+                            <in>ftrender.h</in>
+                            <in>ftsizes.h</in>
+                            <in>ftsnames.h</in>
+                            <in>ftstroke.h</in>
+                            <in>ftsynth.h</in>
+                            <in>ftsystem.h</in>
+                            <in>fttrigon.h</in>
+                            <in>fttypes.h</in>
+                            <in>ftwinfnt.h</in>
+                            <in>ftxf86.h</in>
+                            <in>t1tables.h</in>
+                            <in>ttnameid.h</in>
+                            <in>tttables.h</in>
+                            <in>tttags.h</in>
+                            <in>ttunpat.h</in>
+                          </df>
+                          <in>ft2build.h</in>
+                        </df>
+                        <df name="Resources">
+                          <df name="English.lproj">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="Headers">
+                  <in>SDL_ttf.h</in>
+                </df>
+                <df name="Resources">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="frameworks-headers">
+        <df name="Box2D">
+          <df name="Collision">
+            <df name="Shapes">
+              <in>b2ChainShape.h</in>
+              <in>b2CircleShape.h</in>
+              <in>b2EdgeShape.h</in>
+              <in>b2PolygonShape.h</in>
+              <in>b2Shape.h</in>
+            </df>
+            <in>b2BroadPhase.h</in>
+            <in>b2Collision.h</in>
+            <in>b2Distance.h</in>
+            <in>b2DynamicTree.h</in>
+            <in>b2TimeOfImpact.h</in>
+          </df>
+          <df name="Common">
+            <in>b2BlockAllocator.h</in>
+            <in>b2Draw.h</in>
+            <in>b2GrowableStack.h</in>
+            <in>b2Math.h</in>
+            <in>b2Settings.h</in>
+            <in>b2StackAllocator.h</in>
+            <in>b2Timer.h</in>
+          </df>
+          <df name="Dynamics">
+            <df name="Contacts">
+              <in>b2ChainAndCircleContact.h</in>
+              <in>b2ChainAndPolygonContact.h</in>
+              <in>b2CircleContact.h</in>
+              <in>b2Contact.h</in>
+              <in>b2ContactSolver.h</in>
+              <in>b2EdgeAndCircleContact.h</in>
+              <in>b2EdgeAndPolygonContact.h</in>
+              <in>b2PolygonAndCircleContact.h</in>
+              <in>b2PolygonContact.h</in>
+            </df>
+            <df name="Joints">
+              <in>b2DistanceJoint.h</in>
+              <in>b2FrictionJoint.h</in>
+              <in>b2GearJoint.h</in>
+              <in>b2Joint.h</in>
+              <in>b2MotorJoint.h</in>
+              <in>b2MouseJoint.h</in>
+              <in>b2PrismaticJoint.h</in>
+              <in>b2PulleyJoint.h</in>
+              <in>b2RevoluteJoint.h</in>
+              <in>b2RopeJoint.h</in>
+              <in>b2WeldJoint.h</in>
+              <in>b2WheelJoint.h</in>
+            </df>
+            <in>b2Body.h</in>
+            <in>b2ContactManager.h</in>
+            <in>b2Fixture.h</in>
+            <in>b2Island.h</in>
+            <in>b2TimeStep.h</in>
+            <in>b2World.h</in>
+            <in>b2WorldCallbacks.h</in>
+          </df>
+          <df name="Rope">
+            <in>b2Rope.h</in>
+          </df>
+          <in>Box2D.h</in>
+        </df>
+        <df name="SDL2">
+          <in>SDL.h</in>
+          <in>SDL_assert.h</in>
+          <in>SDL_atomic.h</in>
+          <in>SDL_audio.h</in>
+          <in>SDL_bits.h</in>
+          <in>SDL_blendmode.h</in>
+          <in>SDL_clipboard.h</in>
+          <in>SDL_config.h</in>
+          <in>SDL_config_macosx.h</in>
+          <in>SDL_copying.h</in>
+          <in>SDL_cpuinfo.h</in>
+          <in>SDL_endian.h</in>
+          <in>SDL_error.h</in>
+          <in>SDL_events.h</in>
+          <in>SDL_filesystem.h</in>
+          <in>SDL_gamecontroller.h</in>
+          <in>SDL_gesture.h</in>
+          <in>SDL_haptic.h</in>
+          <in>SDL_hints.h</in>
+          <in>SDL_joystick.h</in>
+          <in>SDL_keyboard.h</in>
+          <in>SDL_keycode.h</in>
+          <in>SDL_loadso.h</in>
+          <in>SDL_log.h</in>
+          <in>SDL_main.h</in>
+          <in>SDL_messagebox.h</in>
+          <in>SDL_mouse.h</in>
+          <in>SDL_mutex.h</in>
+          <in>SDL_name.h</in>
+          <in>SDL_opengl.h</in>
+          <in>SDL_opengl_glext.h</in>
+          <in>SDL_opengles.h</in>
+          <in>SDL_opengles2.h</in>
+          <in>SDL_opengles2_gl2.h</in>
+          <in>SDL_opengles2_gl2ext.h</in>
+          <in>SDL_opengles2_gl2platform.h</in>
+          <in>SDL_opengles2_khrplatform.h</in>
+          <in>SDL_pixels.h</in>
+          <in>SDL_platform.h</in>
+          <in>SDL_power.h</in>
+          <in>SDL_quit.h</in>
+          <in>SDL_rect.h</in>
+          <in>SDL_render.h</in>
+          <in>SDL_revision.h</in>
+          <in>SDL_rwops.h</in>
+          <in>SDL_scancode.h</in>
+          <in>SDL_shape.h</in>
+          <in>SDL_stdinc.h</in>
+          <in>SDL_surface.h</in>
+          <in>SDL_system.h</in>
+          <in>SDL_syswm.h</in>
+          <in>SDL_thread.h</in>
+          <in>SDL_timer.h</in>
+          <in>SDL_touch.h</in>
+          <in>SDL_types.h</in>
+          <in>SDL_version.h</in>
+          <in>SDL_video.h</in>
+          <in>begin_code.h</in>
+          <in>close_code.h</in>
+        </df>
+        <df name="SDL2_image">
+          <in>SDL_image.h</in>
+        </df>
+        <df name="SDL2_mixer">
+          <in>SDL_mixer.h</in>
+        </df>
+        <df name="SDL2_net">
+          <in>SDL_net.h</in>
+        </df>
+        <df name="SDL2_ttf">
+          <in>SDL_ttf.h</in>
+        </df>
+      </df>
+      <df name="includes">
+        <df name="Box2D">
+          <df name="Collision">
+            <df name="Shapes">
+              <in>b2ChainShape.cpp</in>
+              <in>b2ChainShape.h</in>
+              <in>b2CircleShape.cpp</in>
+              <in>b2CircleShape.h</in>
+              <in>b2EdgeShape.cpp</in>
+              <in>b2EdgeShape.h</in>
+              <in>b2PolygonShape.cpp</in>
+              <in>b2PolygonShape.h</in>
+              <in>b2Shape.h</in>
+            </df>
+            <in>b2BroadPhase.cpp</in>
+            <in>b2BroadPhase.h</in>
+            <in>b2CollideCircle.cpp</in>
+            <in>b2CollideEdge.cpp</in>
+            <in>b2CollidePolygon.cpp</in>
+            <in>b2Collision.cpp</in>
+            <in>b2Collision.h</in>
+            <in>b2Distance.cpp</in>
+            <in>b2Distance.h</in>
+            <in>b2DynamicTree.cpp</in>
+            <in>b2DynamicTree.h</in>
+            <in>b2TimeOfImpact.cpp</in>
+            <in>b2TimeOfImpact.h</in>
+          </df>
+          <df name="Common">
+            <in>b2BlockAllocator.cpp</in>
+            <in>b2BlockAllocator.h</in>
+            <in>b2Draw.cpp</in>
+            <in>b2Draw.h</in>
+            <in>b2GrowableStack.h</in>
+            <in>b2Math.cpp</in>
+            <in>b2Math.h</in>
+            <in>b2Settings.cpp</in>
+            <in>b2Settings.h</in>
+            <in>b2StackAllocator.cpp</in>
+            <in>b2StackAllocator.h</in>
+            <in>b2Timer.cpp</in>
+            <in>b2Timer.h</in>
+          </df>
+          <df name="Dynamics">
+            <df name="Contacts">
+              <in>b2ChainAndCircleContact.cpp</in>
+              <in>b2ChainAndCircleContact.h</in>
+              <in>b2ChainAndPolygonContact.cpp</in>
+              <in>b2ChainAndPolygonContact.h</in>
+              <in>b2CircleContact.cpp</in>
+              <in>b2CircleContact.h</in>
+              <in>b2Contact.cpp</in>
+              <in>b2Contact.h</in>
+              <in>b2ContactSolver.cpp</in>
+              <in>b2ContactSolver.h</in>
+              <in>b2EdgeAndCircleContact.cpp</in>
+              <in>b2EdgeAndCircleContact.h</in>
+              <in>b2EdgeAndPolygonContact.cpp</in>
+              <in>b2EdgeAndPolygonContact.h</in>
+              <in>b2PolygonAndCircleContact.cpp</in>
+              <in>b2PolygonAndCircleContact.h</in>
+              <in>b2PolygonContact.cpp</in>
+              <in>b2PolygonContact.h</in>
+            </df>
+            <df name="Joints">
+              <in>b2DistanceJoint.cpp</in>
+              <in>b2DistanceJoint.h</in>
+              <in>b2FrictionJoint.cpp</in>
+              <in>b2FrictionJoint.h</in>
+              <in>b2GearJoint.cpp</in>
+              <in>b2GearJoint.h</in>
+              <in>b2Joint.cpp</in>
+              <in>b2Joint.h</in>
+              <in>b2MotorJoint.cpp</in>
+              <in>b2MotorJoint.h</in>
+              <in>b2MouseJoint.cpp</in>
+              <in>b2MouseJoint.h</in>
+              <in>b2PrismaticJoint.cpp</in>
+              <in>b2PrismaticJoint.h</in>
+              <in>b2PulleyJoint.cpp</in>
+              <in>b2PulleyJoint.h</in>
+              <in>b2RevoluteJoint.cpp</in>
+              <in>b2RevoluteJoint.h</in>
+              <in>b2RopeJoint.cpp</in>
+              <in>b2RopeJoint.h</in>
+              <in>b2WeldJoint.cpp</in>
+              <in>b2WeldJoint.h</in>
+              <in>b2WheelJoint.cpp</in>
+              <in>b2WheelJoint.h</in>
+            </df>
+            <in>b2Body.cpp</in>
+            <in>b2Body.h</in>
+            <in>b2ContactManager.cpp</in>
+            <in>b2ContactManager.h</in>
+            <in>b2Fixture.cpp</in>
+            <in>b2Fixture.h</in>
+            <in>b2Island.cpp</in>
+            <in>b2Island.h</in>
+            <in>b2TimeStep.h</in>
+            <in>b2World.cpp</in>
+            <in>b2World.h</in>
+            <in>b2WorldCallbacks.cpp</in>
+            <in>b2WorldCallbacks.h</in>
+          </df>
+          <df name="Rope">
+            <in>b2Rope.cpp</in>
+            <in>b2Rope.h</in>
+          </df>
+          <in>Box2D.h</in>
+        </df>
+        <df name="SDL2">
+          <in>SDL.h</in>
+          <in>SDL_assert.h</in>
+          <in>SDL_atomic.h</in>
+          <in>SDL_audio.h</in>
+          <in>SDL_bits.h</in>
+          <in>SDL_blendmode.h</in>
+          <in>SDL_clipboard.h</in>
+          <in>SDL_config.h</in>
+          <in>SDL_config_android.h</in>
+          <in>SDL_config_iphoneos.h</in>
+          <in>SDL_config_macosx.h</in>
+          <in>SDL_config_minimal.h</in>
+          <in>SDL_config_pandora.h</in>
+          <in>SDL_config_psp.h</in>
+          <in>SDL_config_windows.h</in>
+          <in>SDL_config_winrt.h</in>
+          <in>SDL_config_wiz.h</in>
+          <in>SDL_copying.h</in>
+          <in>SDL_cpuinfo.h</in>
+          <in>SDL_egl.h</in>
+          <in>SDL_endian.h</in>
+          <in>SDL_error.h</in>
+          <in>SDL_events.h</in>
+          <in>SDL_filesystem.h</in>
+          <in>SDL_gamecontroller.h</in>
+          <in>SDL_gesture.h</in>
+          <in>SDL_haptic.h</in>
+          <in>SDL_hints.h</in>
+          <in>SDL_image.h</in>
+          <in>SDL_joystick.h</in>
+          <in>SDL_keyboard.h</in>
+          <in>SDL_keycode.h</in>
+          <in>SDL_loadso.h</in>
+          <in>SDL_log.h</in>
+          <in>SDL_main.h</in>
+          <in>SDL_messagebox.h</in>
+          <in>SDL_mixer.h</in>
+          <in>SDL_mouse.h</in>
+          <in>SDL_mutex.h</in>
+          <in>SDL_name.h</in>
+          <in>SDL_net.h</in>
+          <in>SDL_opengl.h</in>
+          <in>SDL_opengl_glext.h</in>
+          <in>SDL_opengles.h</in>
+          <in>SDL_opengles2.h</in>
+          <in>SDL_opengles2_gl2.h</in>
+          <in>SDL_opengles2_gl2ext.h</in>
+          <in>SDL_opengles2_gl2platform.h</in>
+          <in>SDL_opengles2_khrplatform.h</in>
+          <in>SDL_pixels.h</in>
+          <in>SDL_platform.h</in>
+          <in>SDL_power.h</in>
+          <in>SDL_quit.h</in>
+          <in>SDL_rect.h</in>
+          <in>SDL_render.h</in>
+          <in>SDL_revision.h</in>
+          <in>SDL_rwops.h</in>
+          <in>SDL_scancode.h</in>
+          <in>SDL_shape.h</in>
+          <in>SDL_stdinc.h</in>
+          <in>SDL_surface.h</in>
+          <in>SDL_system.h</in>
+          <in>SDL_syswm.h</in>
+          <in>SDL_test.h</in>
+          <in>SDL_test_assert.h</in>
+          <in>SDL_test_common.h</in>
+          <in>SDL_test_compare.h</in>
+          <in>SDL_test_crc32.h</in>
+          <in>SDL_test_font.h</in>
+          <in>SDL_test_fuzzer.h</in>
+          <in>SDL_test_harness.h</in>
+          <in>SDL_test_images.h</in>
+          <in>SDL_test_log.h</in>
+          <in>SDL_test_md5.h</in>
+          <in>SDL_test_random.h</in>
+          <in>SDL_thread.h</in>
+          <in>SDL_timer.h</in>
+          <in>SDL_touch.h</in>
+          <in>SDL_ttf.h</in>
+          <in>SDL_types.h</in>
+          <in>SDL_version.h</in>
+          <in>SDL_video.h</in>
+          <in>begin_code.h</in>
+          <in>close_code.h</in>
+        </df>
+      </df>
+      <df name="makefiles">
+        <df name="flags">
+          <in>Makefile.flags-MinGW32</in>
+        </df>
+        <df name="package">
+        </df>
+        <in>Makefile.flags</in>
+      </df>
+      <df name="mobileprovision">
+        <df name="ios">
+        </df>
+      </df>
+      <df name="patch">
+      </df>
+      <df name="resources">
+        <df name="Box2D">
+        </df>
+        <df name="Fonts">
+        </df>
+        <df name="Maps">
+        </df>
+        <df name="Pics">
+        </df>
+        <df name="Sfx">
+        </df>
+        <df name="Spine">
+        </df>
+      </df>
+      <df name="share">
+        <df name="common">
+        </df>
+        <df name="ios">
+          <df name="MyApp.app">
+          </df>
+        </df>
+        <df name="linux">
+        </df>
+        <df name="osx">
+        </df>
+      </df>
+      <df name="src">
+        <df name="Common">
+          <in>CGGlobals.cpp</in>
+          <in>CGGlobals.h</in>
+          <in>CGIncludes.h</in>
+        </df>
+        <in>CApp.cpp</in>
+        <in>CApp.h</in>
+        <in>CGSprite.cpp</in>
+        <in>CGSprite.h</in>
+        <in>main.cpp</in>
+      </df>
+      <df name="tmp">
+        <df name="linux">
+        </df>
+        <df name="osx">
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="SDL_Project_Template" type="0" platformSpecific="true">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>4</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>open -a "./build/$(APP_NAME).app"</runcommandpicklistitem>
+          <runcommandpicklistitem>open -a "./build/${APP_NAME}.app"</runcommandpicklistitem>
+          <runcommandpicklistitem>open "./build/${APP_NAME}"</runcommandpicklistitem>
+          <runcommandpicklistitem>open -a "./build/${APP_NAME}"</runcommandpicklistitem>
+          <runcommandpicklistitem>open -a "${APP_NAME}"</runcommandpicklistitem>
+          <runcommandpicklistitem>open -a "$(APP_NAME)"</runcommandpicklistitem>
+          <runcommandpicklistitem>make run</runcommandpicklistitem>
+          <runcommandpicklistitem>${MAKE} -f Makefile.OSX run</runcommandpicklistitem>
+          <runcommandpicklistitem>make -f Makefile.OSX run</runcommandpicklistitem>
+          <runcommandpicklistitem>make -f Makefile run</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>make -f Makefile run</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

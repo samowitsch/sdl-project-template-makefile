@@ -1,0 +1,3 @@
+%-$(TARGET).o: %.cpp
+	@echo "${BOLD} Compile file :" $< "${NORMAL}"
+	$(CXX) -c $(CXXFLAGS) -o $@ $<

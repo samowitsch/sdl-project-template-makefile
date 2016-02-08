@@ -1,0 +1,26 @@
+
+ifeq ($(TARGET),iOS_Simulator)
+
+include ./makefiles/package/Makefile.package-iPhoneSimulator
+
+else ifeq ($(TARGET),iOS_Device)
+
+include ./makefiles/package/Makefile.package-iPhone
+
+else ifeq ($(TARGET),MinGW32)
+
+include ./makefiles/package/Makefile.package-MinGW32
+
+else ifeq ($(TARGET),MinGW64)
+
+include ./makefiles/package/Makefile.package-MinGW64
+
+else ifeq ($(UNAME_S),Darwin)
+
+include ./makefiles/package/Makefile.package-Darwin
+
+else ifeq ($(UNAME_S),Linux)
+
+include ./makefiles/package/Makefile.package-Linux
+
+endif

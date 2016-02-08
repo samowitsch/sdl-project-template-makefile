@@ -1,0 +1,291 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 222.0,
+		"last_filter": "make",
+		"selected_items":
+		[
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"fomr",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Clang Format: Format Selection"
+			],
+			[
+				"Make",
+				"Build With: Make"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/csg/Dropbox/c/sdl/sdl-project-template",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/build",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/Common",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/tmp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/tmp/linux",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/tmp/osx"
+	],
+	"file_history":
+	[
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-iPhoneSimulator",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-iPhone",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-MinGW64",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-MinGW32",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.executable",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.package",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-Darwin",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/Makefile",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-MinGW32",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.flags",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-Linux",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-Darwin",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/Notes.md",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-iPhone",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-iPhoneSimulator",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.compile",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.run",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.target",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.clean",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CGSprite.cpp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CApp.cpp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/Common/CGGlobals.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CGSprite.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/Common/CGGlobals.cpp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/main.cpp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/cmake/linux.cmake",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/cmake/macosx.cmake",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/cmake/lua.cmake",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CApp.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/Common/CGIncludes.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CGGlobals.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/CGIncludes.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/LGVector2D.cpp",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/LGVector2D.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/src/vec2.h",
+		"/home/csg/Dropbox/c/sdl/sdl-project-template/sdl.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"renderer",
+			"gRe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 275.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sdl.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

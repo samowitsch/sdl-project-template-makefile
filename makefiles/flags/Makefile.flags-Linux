@@ -1,0 +1,15 @@
+TARGET=Linux
+EXECUTABLE = executable_$(TARGET)
+BUILD_PATH=./build/linux
+
+CXXFLAGS= -w \
+	-std=c++0x
+
+LDFLAGS = -lSDL2main \
+	-lSDL2 \
+	-lSDL2_image \
+	-lSDL2_mixer \
+	-lSDL2_ttf \
+	-lSDL2_net \
+	-lBox2D \
+	-I/usr/include

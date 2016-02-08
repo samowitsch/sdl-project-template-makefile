@@ -1,0 +1,30 @@
+TARGET=iOS_Simulator
+EXECUTABLE = executable_$(TARGET)
+BUILD_PATH=./build/ios.simulator
+CXXFLAGS= -w -std=c++0x \
+	-I "./includes" \
+	-DTARGET_IPHONE_SIMULATOR \
+	-arch i386 \
+	-mios-simulator-version-min=9.2 \
+	-fobjc-abi-version=2 \
+	-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+
+LDFLAGS = -v \
+    -L "./frameworks/ios" \
+    -lSDL2 \
+    -lSDL2_image \
+    -lSDL2_mixer \
+    -lSDL2_net \
+    -lSDL2_ttf \
+    -lBox2D \
+    -framework GameController \
+    -framework CoreMotion \
+    -framework ImageIO \
+    -framework Foundation \
+    -framework UIKit \
+    -framework MobileCoreServices \
+    -framework CoreGraphics \
+    -framework OpenGLES \
+    -framework QuartzCore \
+    -framework CoreAudio \
+    -framework AudioToolbox

@@ -1,0 +1,33 @@
+clean:
+
+	@echo "${BOLD} Delete main binary and .o files ${NORMAL}"
+	$(RM) $(EXECUTABLE)
+	find $(SOURCE_PATH) -name "*-$(TARGET).o" -print0 | xargs -0 rm
+
+ifeq ($(TARGET),Darwin)
+
+	@echo "${BOLD} Delete OS X application bundle ${NORMAL}"
+	$(RM) "$(BUILD_PATH)/$(APP_NAME).app/"
+
+else ifeq ($(TARGET),iOS_Simulator)
+
+	@echo "${BOLD} Delete iOS_Simulator app bundle ${NORMAL}"
+	$(RM) "$(BUILD_PATH)/MyApp.app/"
+
+	@echo "${BOLD} Delete app from simulator ${NORMAL}"
+	xcrun simctl uninstall booted "com.yourcompany.MyApp"
+
+else ifeq ($(TARGET),iOS_Device)
+
+	@echo "${BOLD} Delete iOS_Device app bundle ${NORMAL}"
+	$(RM) "$(BUILD_PATH)/MyApp.app/"
+
+	@echo "${BOLD} Delete iOS_Device .ipa file ${NORMAL}"
+	$(RM) "$(BUILD_PATH)/MyApp.ipa"
+
+
+else ifeq ($(TARGET),Linux)
+	@echo "${BOLD} Delete Linux application files ${NORMAL}"
+	$(RM) $(BUILD_PATH)/*
+
+endif
