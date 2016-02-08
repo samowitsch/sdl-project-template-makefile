@@ -2,7 +2,7 @@ run:
 
 ifeq ($(TARGET),Darwin)
 	#OS X stuff
-	open -a "$(APP_NAME)"
+	open -a "$(ROOT_DIR)/build/osx/$(APP_NAME).app"
 
 else ifeq ($(TARGET),iOS_Simulator)
 
