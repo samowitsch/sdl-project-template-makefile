@@ -11,12 +11,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/Notes.md</file>
-            <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-iPhoneSimulator</file>
             <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/makefiles/Makefile.run</file>
+            <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-iPhone</file>
             <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/makefiles/package/Makefile.package-iPhone</file>
-            <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/src/CApp.cpp</file>
             <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/share/ios/MyApp.app/Info.plist</file>
             <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/Makefile</file>
+            <file>file:/Users/csg/Dropbox/c/sdl/sdl-project-template/makefiles/flags/Makefile.flags-iPhoneSimulator</file>
         </group>
     </open-files>
 </project-private>

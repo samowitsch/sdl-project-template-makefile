@@ -4,7 +4,7 @@
     <df root="." name="0">
       <df name="build">
         <df name="ios.device">
-          <df name="MyApp.app">
+          <df name="SDL2 Test.app">
             <df name="Box2D">
             </df>
             <df name="Fonts">
@@ -20,7 +20,7 @@
           </df>
         </df>
         <df name="ios.simulator">
-          <df name="MyApp.app">
+          <df name="SDL2 Test.app">
             <df name="Box2D">
             </df>
             <df name="Fonts">
@@ -50,7 +50,7 @@
           </df>
         </df>
         <df name="osx">
-          <df name="SDL App.app">
+          <df name="SDL2 Test.app">
             <df name="Contents">
               <df name="Frameworks">
                 <df name="Box2D.framework">
@@ -189,7 +189,7 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Headers">
@@ -261,7 +261,7 @@
                   </df>
                 </df>
                 <df name="SDL2.framework">
-                  <df name="Headers">
+                  <df name="headers">
                     <in>SDL.h</in>
                     <in>SDL_assert.h</in>
                     <in>SDL_atomic.h</in>
@@ -322,7 +322,7 @@
                     <in>begin_code.h</in>
                     <in>close_code.h</in>
                   </df>
-                  <df name="Resources">
+                  <df name="resources">
                   </df>
                   <df name="Versions">
                     <df name="A">
@@ -392,7 +392,7 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Headers">
@@ -491,7 +491,7 @@
                             </df>
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -520,7 +520,7 @@
                       </df>
                       <df name="Frameworks">
                         <df name="webp.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <df name="webp">
                               <in>decode.h</in>
                               <in>encode.h</in>
@@ -571,12 +571,12 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Frameworks">
                         <df name="webp.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <df name="webp">
                               <in>decode.h</in>
                               <in>encode.h</in>
@@ -671,7 +671,7 @@
                             </df>
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -710,7 +710,7 @@
                           <df name="Resources">
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -743,7 +743,7 @@
                             </df>
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -775,7 +775,7 @@
                           <df name="Resources">
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -811,7 +811,7 @@
                             </df>
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -838,7 +838,7 @@
                       </df>
                       <df name="Frameworks">
                         <df name="FLAC.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <df name="FLAC">
                               <in>all.h</in>
                               <in>assert.h</in>
@@ -928,7 +928,7 @@
                           </df>
                         </df>
                         <df name="Ogg.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <in>ogg.h</in>
                             <in>os_types.h</in>
                           </df>
@@ -1039,12 +1039,12 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Frameworks">
                         <df name="FLAC.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <df name="FLAC">
                               <in>all.h</in>
                               <in>assert.h</in>
@@ -1134,11 +1134,11 @@
                           </df>
                         </df>
                         <df name="Ogg.framework">
-                          <df name="Headers">
+                          <df name="headers">
                             <in>ogg.h</in>
                             <in>os_types.h</in>
                           </df>
-                          <df name="Resources">
+                          <df name="resources">
                             <df name="English.lproj">
                             </df>
                           </df>
@@ -1263,7 +1263,7 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Headers">
@@ -1402,7 +1402,7 @@
                             </df>
                           </df>
                         </df>
-                        <df name="Current">
+                        <df name="current">
                           <df name="_CodeSignature">
                           </df>
                           <df name="Headers">
@@ -1678,7 +1678,7 @@
                       <df name="Resources">
                       </df>
                     </df>
-                    <df name="Current">
+                    <df name="current">
                       <df name="_CodeSignature">
                       </df>
                       <df name="Frameworks">
@@ -1898,6 +1898,16 @@
                 <df name="Sfx">
                 </df>
                 <df name="Spine">
+                </df>
+              </df>
+            </df>
+            <df name="MyApp.app">
+              <df name="Contents">
+                <df name="Frameworks">
+                </df>
+                <df name="MacOS">
+                </df>
+                <df name="Resources">
                 </df>
               </df>
             </df>
@@ -2277,7 +2287,7 @@
                 <df name="Resources">
                 </df>
               </df>
-              <df name="Current">
+              <df name="current">
                 <df name="_CodeSignature">
                 </df>
                 <df name="Headers">
@@ -2696,7 +2706,7 @@
                       </df>
                     </df>
                   </df>
-                  <df name="Current">
+                  <df name="current">
                     <df name="_CodeSignature">
                     </df>
                     <df name="Headers">
@@ -2723,7 +2733,7 @@
                 </df>
                 <df name="Frameworks">
                   <df name="FLAC.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <df name="FLAC">
                         <in>all.h</in>
                         <in>assert.h</in>
@@ -2736,7 +2746,7 @@
                         <in>stream_encoder.h</in>
                       </df>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -2762,7 +2772,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2786,10 +2796,10 @@
                     </df>
                   </df>
                   <df name="modplug.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>modplug.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                     </df>
                     <df name="Versions">
                       <df name="A">
@@ -2801,7 +2811,7 @@
                         <df name="Resources">
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2813,11 +2823,11 @@
                     </df>
                   </df>
                   <df name="Ogg.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>ogg.h</in>
                       <in>os_types.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -2834,7 +2844,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2849,11 +2859,11 @@
                     </df>
                   </df>
                   <df name="smpeg2.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>MPEGframe.h</in>
                       <in>smpeg.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                     </df>
                     <df name="Versions">
                       <df name="A">
@@ -2866,7 +2876,7 @@
                         <df name="Resources">
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2879,12 +2889,12 @@
                     </df>
                   </df>
                   <df name="Vorbis.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>codec.h</in>
                       <in>vorbisenc.h</in>
                       <in>vorbisfile.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -2902,7 +2912,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2929,7 +2939,7 @@
                 </df>
                 <df name="Frameworks">
                   <df name="FLAC.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <df name="FLAC">
                         <in>all.h</in>
                         <in>assert.h</in>
@@ -2942,7 +2952,7 @@
                         <in>stream_encoder.h</in>
                       </df>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -2968,7 +2978,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -2992,10 +3002,10 @@
                     </df>
                   </df>
                   <df name="modplug.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>modplug.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                     </df>
                     <df name="Versions">
                       <df name="A">
@@ -3019,11 +3029,11 @@
                     </df>
                   </df>
                   <df name="Ogg.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>ogg.h</in>
                       <in>os_types.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -3040,7 +3050,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -3055,11 +3065,11 @@
                     </df>
                   </df>
                   <df name="smpeg2.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>MPEGframe.h</in>
                       <in>smpeg.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                     </df>
                     <df name="Versions">
                       <df name="A">
@@ -3072,7 +3082,7 @@
                         <df name="Resources">
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -3085,12 +3095,12 @@
                     </df>
                   </df>
                   <df name="Vorbis.framework">
-                    <df name="Headers">
+                    <df name="headers">
                       <in>codec.h</in>
                       <in>vorbisenc.h</in>
                       <in>vorbisfile.h</in>
                     </df>
-                    <df name="Resources">
+                    <df name="resources">
                       <df name="English.lproj">
                       </df>
                     </df>
@@ -3108,7 +3118,7 @@
                           </df>
                         </df>
                       </df>
-                      <df name="Current">
+                      <df name="current">
                         <df name="_CodeSignature">
                         </df>
                         <df name="Headers">
@@ -4126,7 +4136,7 @@
         </df>
         <df name="Maps">
         </df>
-        <df name="Pics">
+        <df name="pics">
         </df>
         <df name="Sfx">
         </df>
@@ -4143,6 +4153,16 @@
         <df name="linux">
         </df>
         <df name="osx">
+          <df name="MyApp.app">
+            <df name="Contents">
+              <df name="Frameworks">
+              </df>
+              <df name="MacOS">
+              </df>
+              <df name="Resources">
+              </df>
+            </df>
+          </df>
         </df>
       </df>
       <df name="src">

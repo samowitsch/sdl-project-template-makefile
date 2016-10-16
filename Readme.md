@@ -1,6 +1,6 @@
 # SDL project template
 
-This project is a starting point to build an SDL Mac app. It can be used without Xcode and you can use your favourite ide. Netbeans is working very well for me (build&run, Code Assistance,...). The Netbeans project settings are included in this repository. I think Eclipse maybe can be used as well.
+This project is a starting point to build an SDL Mac app, iOS App or Linux executeable at the moment. It can be used without Xcode and you can use your favourite ide. Netbeans is working very well for me (build&run, Code Assistance,...). The Netbeans project settings are included in this repository. I think Eclipse maybe can be used as well.
 
 It uses a normal Makefile and generates an OS X App bundle with all needed files (Libraries, Resources). Change the Makefile
 
@@ -39,6 +39,7 @@ Most IDEs don't recognize the OS X Library structure (with subfolders) and can't
 
 * add code signing for gate keeper?
 * support linux/windows as well?
+* maybe the use of cmake instead of make would be better ;-)
 
 ### Bugs
 
