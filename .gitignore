@@ -1,6 +1,5 @@
 // ignore build files
 executable*
-build/*
 *.o
 
 // ignore mac files
