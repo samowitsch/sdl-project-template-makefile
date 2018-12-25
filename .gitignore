@@ -5,6 +5,8 @@ executable*
 // ignore mac files
 ._*
 
+.hg
+
 // ignore IDE files
 .idea
 .cproject
