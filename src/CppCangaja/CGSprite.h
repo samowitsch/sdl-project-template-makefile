@@ -10,7 +10,7 @@
  *
  * Created on 23. Januar 2016, 20:07
  */
-#include "Common/CGIncludes.h"
+#include "../Common/CGIncludes.h"
 
 
 #ifndef CGSPRITE_H

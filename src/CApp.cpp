@@ -4,7 +4,7 @@
 #include "Common/CGGlobals.h"
 
 #include "CApp.h"
-#include "CGSprite.h"
+#include "CppCangaja/CGSprite.h"
 
 
 // ============================================================================

@@ -11,7 +11,7 @@
  * Created on 23. Januar 2016, 20:07
  */
 
-#include "Common/CGGlobals.h"
+#include "../Common/CGGlobals.h"
 
 #include "CGSprite.h"
 #include <string>

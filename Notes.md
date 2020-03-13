@@ -53,6 +53,15 @@ http://stackoverflow.com/questions/8067329/how-to-include-apple-frameworks-on-ec
 sudo apt-get install libsdl2-2.0-0 libsdl2-dev libsdl2-image-2.0-0 libsdl2-image-dev libsdl2-mixer-2.0-0 libsdl2-mixer-dev libsdl2-ttf-2.0-0 libsdl2-ttf-dev libsdl2-net-2.0-0 libsdl2-net-dev libbox2d2.3.0 libbox2d-dev libbox2d-doc
 ```
 
+
+### install needed packages under Ubuntu 19.10
+
+It was a little mess to figure out the right versions. Maybe next time staying on a Ubuntu LTS version would be better for installing the needed stuff.
+
+```bash
+$ sudo apt-get install libibus-1.0-dev=1.5.21-1~exp2ubuntu2 libsdl2-dev=2.0.10+dfsg1-1ubuntu1 libpulse-dev=1:13.0-1ubuntu1.1 libglib2.0-dev=2.62.1-1 libpcre3-dev=2:8.39-12 libpcre3=2:8.39-12 libselinux1-dev=2.9-2 libpcre2-dev=10.32-5 libpcre16-3=2:8.39-12 libpcre2-8-0=10.32-5 libpcre2-16-0=10.32-5
+```
+
 ### executable
 
 /usr/local/bin or /usr/local/bin
