@@ -4,18 +4,28 @@ This project is a starting point to build an SDL Mac app, iOS App or Linux execu
 
 It uses a normal Makefile and generates an OS X App bundle with all needed files (Libraries, Resources). Change the Makefile
 
-### General usage
 
-**make -f Makefile.<PLATFORM>** or **make -f Makefile.<PLATFORM> <BUILDSTEP>**
+### General make usage
 
-### Usage
+Builds a executable app for host os (Linux/macOS at the moment). 
 
-**make** - compile and build app bundle
+```make``` - compile and build app bundle
 
-**make run** - starts the app
+```make run``` - starts the app
 
-**make clean** - delete executable and all compiled .o files
+```make clean``` - delete executable and all compiled .o files
 
+### make a specific target
+
+```TARGET=iOS_Simulator make``` - compile and build app bundle
+
+```TARGET=iOS_Simulator make run``` - starts the app
+
+```TARGET=iOS_Simulator make clean``` - delete executable and all compiled .o files
+
+Targets: **Linux**, **Darwin**, MinGW32, MinGW64, **iOS_Device**, **iOS_Simulator**
+
+> Only bold targets are used and are "working" at the moment!
 
 ### Included OS X Frameworks/Libraries
 
