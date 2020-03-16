@@ -7,6 +7,10 @@
 * [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/)
 * [SDL projects](https://www.libsdl.org/projects/)
 
+# SDL2 changelog
+
+* [Changelog](https://www.libsdl.org/tmp/SDL/WhatsNew.txt)
+
 # get paths in SDL2 (Resources/Preferences)
 
 * https://wiki.libsdl.org/SDL_GetBasePath - Use this function to get the directory where the application was run from. This is where the application data directory is.
