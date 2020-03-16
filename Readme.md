@@ -2,8 +2,7 @@
 
 This project is a starting point to build an SDL Mac app, iOS App or Linux executeable at the moment. It can be used without Xcode and you can use your favourite ide. Netbeans is working very well for me (build&run, Code Assistance,...). The Netbeans project settings are included in this repository. I think Eclipse maybe can be used as well.
 
-It uses a normal Makefile and generates an OS X App bundle with all needed files (Libraries, Resources). Change the Makefile
-
+It uses a normal Makefile and generates an OS X App bundle with all needed files (Libraries, Resources). Change the Makefiles to your own needs.
 
 ### General make usage
 
