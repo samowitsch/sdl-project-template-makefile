@@ -1,25 +1,15 @@
-// ============================================================================
-// [Include Section]
-// ============================================================================
-
 #include "Common/CGIncludes.h"
 #include <iostream>
 #include <string>
 using namespace std;
 
-// ============================================================================
-// [CApp]
-// ============================================================================
-// This is just a sample SDL application class to test that the app works.
-
 class CApp {
 public:
-
     // Application state
 
     enum APP_STATE {
-	APP_OK = 0,
-	APP_FAILED = 1
+        APP_OK = 0,
+        APP_FAILED = 1
     };
 
     CApp();
@@ -29,9 +19,7 @@ public:
     int OnExecute();
     int HandleAppEvents(void *userdata, SDL_Event *event);
 
-
 private:
-
     // Whether the application is running.
     bool running;
 
@@ -53,7 +41,7 @@ private:
     void OnCleanup();
 
     // Called to process SDL event.
-    void OnEvent(SDL_Event* event);
+    void OnEvent(SDL_Event *event);
 
     // Called to update game logic
     void OnUpdate();
@@ -61,27 +49,23 @@ private:
     // Called to render the app.
     void OnRender();
 
-    SDL_Texture* RenderText(
-	    const std::string &message,
-	    const std::string &fontFile,
-	    SDL_Color &color,
-	    int fontSize,
-	    SDL_Renderer *renderer
-	    );
+    SDL_Texture *RenderText(
+            const std::string &message,
+            const std::string &fontFile,
+            SDL_Color &color,
+            int fontSize,
+            SDL_Renderer *renderer);
 
     void RenderTexture(
-	    SDL_Texture *tex,
-	    SDL_Renderer *ren,
-	    SDL_Rect dst,
-	    SDL_Rect *clip = nullptr
-	    );
+            SDL_Texture *tex,
+            SDL_Renderer *ren,
+            SDL_Rect dst,
+            SDL_Rect *clip = nullptr);
 
     void RenderTexture(
-	    SDL_Texture *tex,
-	    SDL_Renderer *ren,
-	    int x,
-	    int y,
-	    SDL_Rect *clip = nullptr
-	    );
-
+            SDL_Texture *tex,
+            SDL_Renderer *ren,
+            int x,
+            int y,
+            SDL_Rect *clip = nullptr);
 };
