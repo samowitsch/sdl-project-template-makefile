@@ -7,7 +7,8 @@ ifeq ($(TARGET),Darwin)
 else ifeq ($(TARGET),iOS_Simulator)
 
 	#iOS stuff
-	xcrun instruments -w "iPhone 8 Plus (13.3) [ECCCC1E1-C1F1-4901-BB84-1285460A6026]" || true
+	xcrun instruments -w "iPhone 8 Plus (13.4) [3AC15ADA-F16F-460C-A03D-63DDB64A7E53]" || true
+	#xcrun instruments -w "iPhone 8 Plus (13.3) [ECCCC1E1-C1F1-4901-BB84-1285460A6026]" || true
 	#xcrun instruments -w "sam IP6 (9.2.1) [e8b8620c079735918b90ba909e76cc70d04713dd]" || true
 
 	sleep 5
