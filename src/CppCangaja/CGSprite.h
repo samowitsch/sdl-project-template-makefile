@@ -6,7 +6,7 @@
 class CGSprite
 {
 public:
-    CGSprite(double x, double y);
+    CGSprite(double x = 0, double y = 0);
     ~CGSprite();
 
     void Draw();

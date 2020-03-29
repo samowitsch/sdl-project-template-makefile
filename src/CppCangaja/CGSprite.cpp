@@ -10,7 +10,7 @@
 #define HANDLE_LEFT 0
 #define HANDLE_RIGHT 1
 
-CGSprite::CGSprite(double x = 0, double y = 0)
+CGSprite::CGSprite(double x, double y)
 {
     position = new CGPoint(x, y);
     xspeed = 0;
