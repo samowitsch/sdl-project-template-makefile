@@ -11,5 +11,5 @@ LDFLAGS = -lSDL2main \
 	-lSDL2_mixer \
 	-lSDL2_ttf \
 	-lSDL2_net \
-	-lBox2D \
+	-lbox2d \
 	-I/usr/include
