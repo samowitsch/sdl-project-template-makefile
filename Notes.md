@@ -42,13 +42,6 @@ ort CODESIGN_ALLOCATE="/Applications/Xcode.app/Contents/Developer/usr/bin/codesi
 codesign --force --sign "Developer ID Application: <my name>" /path/to/my.app
 ```
 
-### netbeans code assistance problem
-
-http://thegreyblog.blogspot.de/2014/02/how-to-include-apple-frameworks-headers.html
-https://github.com/emcrisostomo/link-osx-framework-headers
-http://stackoverflow.com/questions/8067329/how-to-include-apple-frameworks-on-eclipse-cdt
-
-
 
 # "bundling/installing" Ubuntu Linux application
 
@@ -56,14 +49,6 @@ http://stackoverflow.com/questions/8067329/how-to-include-apple-frameworks-on-ec
 ```bash
 sudo apt install libsdl2-*
 sudo apt install libbox2d*
-```
-
-### install needed packages under Ubuntu 19.10
-
-It was a little mess to figure out the right versions. Maybe next time staying on a Ubuntu LTS version would be better for installing the needed stuff.
-
-```bash
-$ sudo apt-get install libibus-1.0-dev=1.5.21-1~exp2ubuntu2 libsdl2-dev=2.0.10+dfsg1-1ubuntu1 libpulse-dev=1:13.0-1ubuntu1.1 libglib2.0-dev=2.62.1-1 libpcre3-dev=2:8.39-12 libpcre3=2:8.39-12 libselinux1-dev=2.9-2 libpcre2-dev=10.32-5 libpcre16-3=2:8.39-12 libpcre2-8-0=10.32-5 libpcre2-16-0=10.32-5
 ```
 
 
